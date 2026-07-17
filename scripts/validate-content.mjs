@@ -31,6 +31,7 @@ if (!fs.existsSync(namesFile)) {
     if (!String(entry?.arabic || '').trim()) errors.push(`Divine name ${number} has no Arabic text.`)
     if (!String(entry?.transliteration || '').trim()) errors.push(`Divine name ${number} has no transliteration.`)
     if (!String(entry?.meaning || '').trim()) errors.push(`Divine name ${number} has no meaning.`)
+    if (!String(entry?.abjad || '').trim()) errors.push(`Divine name ${number} has no Abjad value.`)    
   }
 }
 

@@ -6,9 +6,45 @@ import './style.css'
 
 registerSW({
   immediate: true,
-  onRegisteredSW(_url, registration) {
-    void registration?.update()
-    window.addEventListener('focus', () => { void registration?.update() })
+
+  onRegisteredSW(swUrl, registration) {
+    const checkForUpdate = async () => {
+      if (!registration || registration.installing || !navigator.onLine) {
+        return
+      }
+
+      try {
+        const response = await fetch(swUrl, {
+          cache: 'no-store',
+          headers: {
+            'cache': 'no-store',
+            'cache-control': 'no-cache'
+          }
+        })
+
+        if (response.ok) {
+          await registration.update()
+        }
+      } catch (error) {
+        console.warn('Unable to check for an AQRT Manual update:', error)
+      }
+    }
+
+    void checkForUpdate()
+
+    window.addEventListener('focus', () => {
+      void checkForUpdate()
+    })
+
+    window.addEventListener('online', () => {
+      void checkForUpdate()
+    })
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') {
+        void checkForUpdate()
+      }
+    })
   }
 })
 

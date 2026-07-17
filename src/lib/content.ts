@@ -76,9 +76,13 @@ function localeFromPath(path: string): LocaleCode {
 }
 
 function parseYamlArray<T>(raw: string): T[] {
-  const text = raw.trim()
+  const text = raw
+    .split(/\r?\n/)
+    .filter((line) => !line.trim().startsWith('#'))
+    .join('\n')
+    .trim()
 
-  if (!text) {
+  if (!text || text === '---' || text === '...') {
     return []
   }
 

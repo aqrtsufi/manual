@@ -20,6 +20,7 @@ export interface DivineName {
   arabic: string
   transliteration: string
   meaning: string
+  abjad: string
 }
 
 export interface DivineNamesCollection {

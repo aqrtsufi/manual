@@ -9,7 +9,9 @@ const buildLabel = new Intl.DateTimeFormat('en-CA', {
 
 <template>
   <footer class="version-footer">
-    <span>AQRT Manual</span>
+<span>© 2026 AQRT</span>
+<span aria-hidden="true">·</span>
+<span>AQRT Manual</span>
     <span aria-hidden="true">·</span>
     <span>v{{ appVersion }}</span>
     <span aria-hidden="true">·</span>

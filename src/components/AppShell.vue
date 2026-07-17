@@ -15,6 +15,7 @@ const navigation = [
   { to: '/', label: 'Home', mark: '◈' },
   { to: '/manual', label: 'Manual', mark: '§' },
   { to: '/names', label: '99 Names', mark: '٩٩' },
+  { to: '/glossary', label: 'Glossary', mark: 'Aa' },
   { to: '/videos', label: 'Videos', mark: '▶' },
   { to: '/weekly', label: 'Weekly', mark: 'Ⅶ' },
   { to: '/activities', label: 'Activities', mark: '↗' },

@@ -120,6 +120,9 @@ syncFromRoute()
           <div class="name-rule" aria-hidden="true"></div>
           <h2>{{ current.transliteration }}</h2>
           <p>{{ current.meaning }}</p>
+          <div class="name-abjad">
+          <strong>{{ current.abjad }}</strong>
+          </div>
         </article>
       </Transition>
 

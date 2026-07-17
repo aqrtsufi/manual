@@ -21,6 +21,7 @@ export const router = createRouter({
     { path: '/manual', name: 'manual', component: ManualView },
     { path: '/manual/page/:page', name: 'manual-page', component: ManualPageView },
     { path: '/names', name: 'names', component: NamesView },
+    { path: '/glossary', name: 'glossary', component: GlossaryView },
     { path: '/videos', name: 'videos', component: VideosView },
     { path: '/weekly', name: 'weekly', component: WeeklyHubView },
     {

@@ -1,0 +1,18 @@
+# Gregorian event
+# - id: ""
+#   title: ""
+#   calendar: "gregorian"
+#   date: "2026-01-09"
+#   start: "2026-01-09T19:00:00"
+#   timezone: "America/New_York"
+#   url: ""
+#
+# Diyanet Islamic calendar event
+# - id: ""
+#   title: ""
+#   calendar: "diyanet"
+#   hijriDay: 12
+#   hijriMonth: "Rebiülevvel"
+#   startTime: "19:00"
+#   timezone: "America/New_York"
+#   url: ""

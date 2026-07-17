@@ -7,6 +7,7 @@ import type {
   DiyanetCalendar,
   DivineName,
   DivineNamesCollection,
+  GlossaryEntry,
   LocaleCode,
   ManualPage,
   ManualTocEntry,
@@ -35,6 +36,12 @@ const quoteModules = import.meta.glob('../../content/*/quotes/*.txt', {
 }) as Record<string, string>
 
 const nameModules = import.meta.glob('../../content/*/names/*.yml', {
+  eager: true,
+  query: '?raw',
+  import: 'default'
+}) as Record<string, string>
+
+const glossaryModules = import.meta.glob('../../content/*/glossary/*.yml', {
   eager: true,
   query: '?raw',
   import: 'default'
@@ -141,6 +148,25 @@ for (const [path, raw] of Object.entries(nameModules)) {
     sourceUrl: String(parsed?.sourceUrl || '')
   })
 }
+
+export const glossaryEntries: GlossaryEntry[] = []
+
+for (const [path, raw] of Object.entries(glossaryModules)) {
+  const locale = localeFromPath(path)
+  const entries = parseYamlArray<Omit<GlossaryEntry, 'locale'>>(raw)
+
+  glossaryEntries.push(
+    ...entries.map((entry) => ({
+      ...entry,
+      locale
+    }))
+  )
+}
+
+glossaryEntries.sort((a, b) =>
+  a.category.localeCompare(b.category) ||
+  a.sort.localeCompare(b.sort)
+)
 
 export const quranByLocale = new Map<LocaleCode, QuranVerse[]>()
 for (const [path, raw] of Object.entries(quranModules)) {

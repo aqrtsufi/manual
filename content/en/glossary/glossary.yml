@@ -1,0 +1,3801 @@
+# Excerpt of The Quran: Daily Reading for All Humanity by Es-Seyyid Es-Shaykh Taner Vargonen el Ansari
+- id: ababil
+  category: general
+  sort: ababil
+  term: ababil
+  description: a type of bird or flying creature
+- id: abd
+  category: general
+  sort: abd
+  term: '`abd, `abid'
+  description: devotee; dependent; subject; ward
+- id: abdal
+  category: general
+  sort: abdal
+  term: abdal
+  description: substitute; one who has traded their own self for Allah
+- id: abdi
+  category: general
+  sort: abdi
+  term: '`abdi'
+  description: My devotee
+- id: abdin_munib
+  category: general
+  sort: abdinmunib
+  term: '`abdin munib'
+  description: penitent devotee
+- id: abidin
+  category: general
+  sort: abidin
+  term: '`abidin, `abidun'
+  description: plural of `abid
+- id: abraar
+  category: general
+  sort: abraar
+  term: abraar
+  description: good; righteous; virtuous
+- id: abraar_al
+  category: general
+  sort: abraaral
+  term: abraar, al
+  description: the best of believers
+- id: abudu
+  category: general
+  sort: abudu
+  term: A'budu
+  description: “Make connection and devotion to”
+- id: abu_lahab
+  category: general
+  sort: abulahab
+  term: Abu Lahab
+  description: Father of Flame, an uncle of Prophet Muhammad (peace be upon him)
+- id: ad
+  category: general
+  sort: ad
+  term: '`Ad'
+  description: community to whom Prophet Hud was sent
+- id: adab
+  category: general
+  sort: adab
+  term: adab
+  description: etiquette; manners
+- id: afidah
+  category: general
+  sort: afidah
+  term: af'idah
+  description: plural of fu'ad
+- id: ahd
+  category: general
+  sort: ahd
+  term: '`ahd'
+  description: agreement or pact
+- id: ahl_al_kitab
+  category: general
+  sort: ahlalkitab
+  term: Ahl al Kitab, Ahl-e Kitab
+  description: People of the Book or Scripture
+- id: ahl_al_suffa
+  category: general
+  sort: ahlalsuffa
+  term: Ahl al Suffa, Ahl-e Suffa
+  description: Sufis during the time of Prophet Muhammad (peace be upon him)
+- id: ahl_al_tariqa
+  category: general
+  sort: ahlaltariqa
+  term: Ahl al Tariqa, Ahl-e Tariqa
+  description: People of the Path; Sufis
+- id: ahl_al_zikr
+  category: general
+  sort: ahlalzikr
+  term: Ahl al Zikr, Ahl-e Zikr
+  description: People of Zikr; Sufis
+- id: ahlullah
+  category: general
+  sort: ahlullah
+  term: Ahlullah
+  description: People of Allah
+- id: ahwa
+  category: general
+  sort: ahwa
+  term: ahwa
+  description: plural of hawa
+- id: ajr
+  category: general
+  sort: ajr
+  term: ajr
+  description: reward; wage; compensation
+- id: akhfa
+  category: general
+  sort: akhfa
+  term: akhfa
+  description: very deeply hidden; the deepest part of the heart; sirr ul-asrar
+- id: akhir
+  category: general
+  sort: akhir
+  term: akhir
+  description: last; latter
+- id: akhira
+  category: general
+  sort: akhira
+  term: akhira
+  description: Hereafter; afterlife
+- id: akhlaq
+  category: general
+  sort: akhlaq
+  term: akhlaq
+  description: behavior
+- id: alam
+  category: general
+  sort: alam
+  term: '`alam'
+  description: world; realm; creation; universe
+- id: alam_al_arwah
+  category: general
+  sort: alamiarwah
+  term: '`alam-i arwah'
+  description: the world or realm of the spirit
+- id: alam_al_jabarrut
+  category: general
+  sort: alamijabarrut
+  term: '`alam-i jabarrut'
+  description: the world or realm of the archangels
+- id: alam_al_kathrat
+  category: general
+  sort: alamikathrat
+  term: '`alam-i kathrat'
+  description: the world or realm of multiplicity (kinetic energy)
+- id: alam_al_lahut
+  category: general
+  sort: alamilahut
+  term: '`alam-i lahut'
+  description: the world or realm of the Essence of Allah
+- id: alam_al_malakut
+  category: general
+  sort: alamimalakut
+  term: '`alam-i malakut'
+  description: the world or realm of the angels
+- id: alam_al_mulk
+  category: general
+  sort: alamimulk
+  term: '`alam-i mulk'
+  description: the world or realm of creation
+- id: alamin
+  category: general
+  sort: alamin
+  term: '`alamin'
+  description: worlds; realms; creation; universes
+- id: alam_al_ruh
+  category: general
+  sort: alamiruh
+  term: '`alam-i ruh'
+  description: the world or realm of the spirit
+- id: alam_al_wahdat
+  category: general
+  sort: alamiwahdat
+  term: '`alam-i wahdat'
+  description: the world or realm of oneness (potential energy)
+- id: alayhi_salaam
+  category: general
+  sort: alayhisalaam
+  term: '`Alayhi salaam'
+  description: “Peace be upon him”
+- id: alhamdulillah
+  category: general
+  sort: alhamdulillah
+  term: Alhamdulillah
+  description: “All gratitude and praise belong to Allah”
+- id: aliha
+  category: general
+  sort: aliha
+  term: aliha
+  description: plural of ilah
+- id: alim
+  category: general
+  sort: alim
+  term: '`alim'
+  description: knower, in a scholarly sense
+- id: aliyun_hakim
+  category: general
+  sort: aliyunhakim
+  term: '`aliyun hakim'
+  description: exalted in wisdom
+- id: allah
+  category: general
+  sort: allah
+  term: Allah
+  description: lit., The God; The Highest Power
+- id: allah_bes_baki_heves
+  category: general
+  sort: allahbesbakiheves
+  term: Allah bes; baki heves
+  description: “Allah is; the rest is nothing”
+- id: allah_taala
+  category: general
+  sort: allahtaala
+  term: Allah Ta'ala
+  description: Allah the Most High
+- id: allahu_akbar
+  category: general
+  sort: allahuakbar
+  term: Allahu Akbar
+  description: “Allah is greater than great”
+- id: allahu_ala_kulli_shayin_qadir
+  category: general
+  sort: allahualakullishayinqadir
+  term: Allahu `ala kulli shay'in qadir
+  description: “Allah is able to do all things”
+- id: allahu_alam
+  category: general
+  sort: allahualam
+  term: Allahu `alam, Allahu `alim
+  description: “Allah knows best”
+- id: allama_al_quran
+  category: general
+  sort: allamaalquran
+  term: '`Allama al Quran'
+  description: “He (Allah) exposed (and keeps expounding on) the Quran”
+- id: allazina_amanu
+  category: general
+  sort: allazinaamanu
+  term: allazina amanu
+  description: people of faith; those who accept and believe; those who make peace with Allah's terms
+- id: allazina_hadu
+  category: general
+  sort: allazinahadu
+  term: allazina hadu
+  description: Jewish people
+- id: allazina_kafaru
+  category: general
+  sort: allazinakafaru
+  term: allazina kafaru
+  description: those who disbelieve and reject the truth
+- id: allazina_nafaqu
+  category: general
+  sort: allazinanafaqu
+  term: allazina nafaqu
+  description: those who are troublemaking hypocrites
+- id: allazina_yuqimuna_al_salat
+  category: general
+  sort: allazinayuqimunaalsalat
+  term: allazina yuqimuna al salat
+  description: those who establish a system of connection and devotion to Allah
+- id: allazina_zalamu
+  category: general
+  sort: allazinazalamu
+  term: allazina zalamu
+  description: those who are wrongdoers
+- id: al_yasaa
+  category: general
+  sort: alyasaa
+  term: Al Yasa'a
+  description: Elisha, Prophet
+- id: amaana
+  category: general
+  sort: amaana
+  term: amaana
+  description: object given for safekeeping, e.g., logic, soul, wisdom, energy and heart; trust
+- id: amin
+  category: general
+  sort: amin
+  term: amin
+  description: amen; trustworthy
+- id: anfus
+  category: general
+  sort: anfus
+  term: anfus
+  description: plural of nafs
+- id: ansar
+  category: general
+  sort: ansar
+  term: ansar
+  description: helpers
+- id: aqamu_al_salat
+  category: general
+  sort: aqamualsalat
+  term: aqamu al salat
+  description: they establish a system of connection and devotion to Allah
+- id: aqim_al_ishq
+  category: general
+  sort: aqimalishq
+  term: Aqim al `ishq
+  description: “Establish love” (a command)
+- id: aqim_al_salat
+  category: general
+  sort: aqimalsalat
+  term: Aqim al salat
+  description: “Establish a system of connection and devotion to Allah” (a command)
+- id: aql
+  category: general
+  sort: aql
+  term: '`aql'
+  description: rational mind; reason; intellect; intelligence; sense
+- id: arif
+  category: general
+  sort: arif
+  term: '`arif'
+  description: knower, from the experience of deep spiritual states; gnostic
+- id: arsh
+  category: general
+  sort: arsh
+  term: '`Arsh'
+  description: Power Grid of the Universe; Throne; seat of power in the universe; the place of origin; stage from which Allah makes decisions; Command Post
+- id: arsh_al_majid_al
+  category: general
+  sort: arshalmajid
+  term: '`Arsh Al Majid, Al'
+  description: The Glorified Throne
+- id: arwah
+  category: general
+  sort: arwah
+  term: arwah
+  description: plural of ruh
+- id: ashab
+  category: general
+  sort: ashab
+  term: ashab
+  description: people; companions; disciples
+- id: ashab_e_kahf
+  category: general
+  sort: ashabekahf
+  term: Ashab-e Kahf
+  description: People or Companions of the Cave
+- id: aslama
+  category: general
+  sort: aslama
+  term: aslama
+  description: to make submission or surrender
+- id: asma_al_husna
+  category: general
+  sort: asmaulhusna
+  term: Asma-ul Husna
+  description: The Beautiful Names (of Allah)
+- id: asr
+  category: general
+  sort: asr
+  term: '`asr'
+  description: passing time; declining day; salat in the afternoon
+- id: as_salaamu_alaykum
+  category: general
+  sort: assalaamualaykum
+  term: As-salaamu `alaykum, Salaam `alaykum, Salaamun `alaykum
+  description: “Peace be upon you.”
+- id: as_salaamu_alaykum_wa_rahmatullahi_wa_barakatuhu
+  category: general
+  sort: assalaamualaykumwarahmatullahiwabarakatuhu
+  term: As-salaamu `alaykum wa rahmatullahi wa barakatuhu
+  description: “Peace be upon you, and Allah's mercy and blessings.”
+- id: astaghfirullah
+  category: general
+  sort: astaghfirullah
+  term: Astaghfirullah
+  description: “Allah, please absolve me.”
+- id: astaghfirullah_tubtu_ila_allah_wa_nahaytu_qalbi_an_ma_siwa_allah
+  category: general
+  sort: astaghfirullahtubtuilaallahwanahaytuqalbianmasiwaallah
+  term: Astaghfirullah, tubtu ila Allah, wa nahaytu qalbi an ma siwa Allah
+  description: “Allah absolve me, I turn to Allah in repentance, please cleanse my heart of everything but Allah.”
+- id: auzu_billahi_minash_shaytan_al_rajim_bismillah_al_rahman_al_rahim
+  category: general
+  sort: auzubillahiminashshaytanalrajimbismillahalrahmanalrahim
+  term: A'uzu billahi minash shaytan al rajim, bismillah Al Rahman Al Rahim
+  description: “I seek refuge in Allah from Satan, the outcast. In the name of Allah, The One Who Acts with Mercy, The Source of Mercy.”
+- id: awliya
+  category: general
+  sort: awliya
+  term: awliya
+  description: plural of wali
+- id: awwal
+  category: general
+  sort: awwal
+  term: awwal
+  description: first; former
+- id: awwam
+  category: general
+  sort: awwam
+  term: '`awwam'
+  description: common people; the masses
+- id: ayat
+  category: general
+  sort: ayat
+  term: ayat (Turkish pronunciation)
+  description: sign; portent; lesson; message; verse; proof; revelation; evidence
+- id: ayat_al_kursi
+  category: general
+  sort: ayatalkursi
+  term: Ayat al Kursi
+  description: Throne Verse (Sura Al Baqara:255), considered by many to be the greatest ayat of the Quran
+- id: ayn_al_yaqin
+  category: general
+  sort: aynalyaqin
+  term: '`Ayn al Yaqin'
+  description: sure knowledge through observation and experience
+- id: ayyam
+  category: general
+  sort: ayyam
+  term: ayyam
+  description: plural of yawm
+- id: ayyub
+  category: general
+  sort: ayyub
+  term: Ayyub
+  description: Job, Prophet
+- id: azaab
+  category: general
+  sort: azaab
+  term: '`azaab'
+  description: torment; agony; punishment; doom; retribution
+- id: azaab_al_alim
+  category: general
+  sort: azaabalalim
+  term: '`azaab al alim'
+  description: painful torment (or punishment; retribution)
+- id: aziz
+  category: general
+  sort: aziz
+  term: aziz
+  description: revered; mighty
+- id: azwaj
+  category: general
+  sort: azwaj
+  term: azwaj
+  description: pairs, i.e., male and female
+- id: baal
+  category: general
+  sort: baal
+  term: Baal
+  description: chief male idol of the Phoenicians
+- id: babil
+  category: general
+  sort: babil
+  term: Babil
+  description: Babylon
+- id: bahirah
+  category: general
+  sort: bahirah
+  term: bahirah
+  description: one of several animals superstitiously distinguished by certain characteristics to be revered and dedicated to idols
+- id: bakkah
+  category: general
+  sort: bakkah
+  term: Bakkah
+  description: ancient Mecca
+- id: bala
+  category: general
+  sort: bala
+  term: bala
+  description: adversity in the form of a trial or test
+- id: balaa
+  category: general
+  sort: balaa
+  term: balaa
+  description: nay; but; on the contrary
+- id: bani_israil
+  category: general
+  sort: baniisrail
+  term: Bani Isra'il
+  description: Children of Israel (i.e., Descendants of Jacob)
+- id: baqiya
+  category: general
+  sort: baqiya
+  term: baqiya
+  description: that which remains
+- id: baraka
+  category: general
+  sort: baraka
+  term: baraka
+  description: blessing; grace
+- id: barr
+  category: general
+  sort: barr
+  term: barr
+  description: goodness; purity
+- id: basmala
+  category: general
+  sort: basmala
+  term: Basmala
+  description: The saying “Bismillah Al Rahman Al Rahim [In the name of Allah, The One Who Acts with Mercy, The Source of Mercy]”
+- id: bast
+  category: general
+  sort: bast
+  term: bast
+  description: expansion
+- id: batil
+  category: general
+  sort: batil
+  term: batil
+  description: falsehood
+- id: batin
+  category: general
+  sort: batin
+  term: batin
+  description: inner
+- id: batini
+  category: general
+  sort: batini
+  term: batini
+  description: inner, inwardly, internal
+- id: bayaan
+  category: general
+  sort: bayaan
+  term: bayaan
+  description: clear speech with understanding and knowledge
+- id: bayat
+  category: general
+  sort: bayat
+  term: bay'at
+  description: pledge or promise of allegiance; initiation into a Sufi order
+- id: bayt
+  category: general
+  sort: bayt
+  term: Bayt
+  description: House; Sanctuary; Ka'aba
+- id: bayyinaat
+  category: general
+  sort: bayyinaat
+  term: bayyinaat
+  description: self-evident
+- id: bida
+  category: general
+  sort: bida
+  term: bid'a
+  description: innovation
+- id: bismillah_al_rahman_al_rahim
+  category: general
+  sort: bismillahalrahmanalrahim
+  term: Bismillah Al Rahman Al Rahim
+  description: “In the name of Allah, The One Who Acts with Mercy, The Source of Mercy”
+- id: buhtan
+  category: general
+  sort: buhtan
+  term: buhtan
+  description: slanderer
+- id: daalin
+  category: general
+  sort: daalin
+  term: daalin
+  description: those who misguide themselves and deserve Allah's wrath
+- id: dabbatan_min_al_ard
+  category: general
+  sort: dabbatanminalard
+  term: dabbatan min al ard
+  description: beast of the earth
+- id: dafi
+  category: general
+  sort: dafi
+  term: dafi'
+  description: repel; rid; send off
+- id: dalaalin_mubin
+  category: general
+  sort: dalaalinmubin
+  term: dalaalin mubin
+  description: very obvious misguidance
+- id: daraja
+  category: general
+  sort: daraja
+  term: daraja
+  description: degree; level; rank; station; diversity; intensity
+- id: dar_al_bawar
+  category: general
+  sort: daralbawar
+  term: dar al bawar
+  description: abode of destruction
+- id: daud
+  category: general
+  sort: daud
+  term: Daud
+  description: David, Prophet
+- id: dawah
+  category: general
+  sort: dawah
+  term: da'wah
+  description: inviting to Islam; preaching the way of Islam
+- id: dhul_kifl
+  category: general
+  sort: dhulkifl
+  term: Dhul Kifl
+  description: Ezekiel, Prophet
+- id: dhun_nun
+  category: general
+  sort: dhunnun
+  term: Dhun Nun
+  description: lit., The One of the Fish, i.e, Prophet Yunus
+- id: dhurriya
+  category: general
+  sort: dhurriya
+  term: dhurriya
+  description: descendants; seed; offspring; genetic lineage; ancestors
+- id: din
+  category: general
+  sort: din
+  term: din
+  description: system of actions that establish a connection to and relationship with Allah; protocol for connection with Allah; way of doing righteous deeds; way of life; right path of connectedness with Allah; path of righteousness to Allah; practice of acting with the truth
+- id: dinar
+  category: general
+  sort: dinar
+  term: dinar
+  description: coin
+- id: dua
+  category: general
+  sort: dua
+  term: dua
+  description: prayer; appeal; supplication; invocation of Allah's favors
+- id: duni
+  category: general
+  sort: duni
+  term: duni
+  description: other than; besides; disregarding
+- id: dunya
+  category: general
+  sort: dunya
+  term: dunya
+  description: material world
+- id: dzan
+  category: general
+  sort: dzan
+  term: dzan
+  description: assumption; thought (good dzan is to assume the best or to give the benefit of the doubt)
+- id: dziya
+  category: general
+  sort: dziya
+  term: dziya
+  description: splendor; radiant light; glow
+- id: fadzl
+  category: general
+  sort: fadzl
+  term: fadzl
+  description: favor; bounty
+- id: fahshaa
+  category: general
+  sort: fahshaa
+  term: fahshaa'
+  description: atrocity; lewdness
+- id: fajr
+  category: general
+  sort: fajr
+  term: fajr
+  description: dawn; salat just before dawn
+- id: falah
+  category: general
+  sort: falah
+  term: falah
+  description: deliverance; prosperity; happiness
+- id: fanaafillah
+  category: general
+  sort: fanaafillah
+  term: fanaa'fillah
+  description: dissolving in Allah
+- id: fardz
+  category: general
+  sort: fardz
+  term: fardz
+  description: compulsory religious rule
+- id: fasaad
+  category: general
+  sort: fasaad
+  term: fasaad
+  description: corruption; viciousness; ruin
+- id: fasabbih
+  category: general
+  sort: fasabbih
+  term: fasabbih
+  description: glorify
+- id: fasiq
+  category: general
+  sort: fasiq
+  term: fasiq
+  description: persistently disobedient one; trouble seeker; misguided one; transgressing one; impious one; one who is astray from the path
+- id: fasiqun_fasiqin
+  category: general
+  sort: fasiqun
+  term: fasiqun, fasiqin
+  description: plural of fasiq
+- id: fiil_al_muhammad
+  category: general
+  sort: fiilimuhammad
+  term: Fi'il-i Muhammad
+  description: the example shown in Prophet Muhammad's (pbuh) daily actions of how human beings should live in accordance with Allah's wishes; Prophet Muhammad's (pbuh) implementation of sharia; tariqa
+- id: firdaws
+  category: general
+  sort: firdaws
+  term: firdaws
+  description: a level of paradise
+- id: fitna
+  category: general
+  sort: fitna
+  term: fitna
+  description: corruption; trouble; disharmony; mischief-making; disorder; rebellion; planting the seeds of trouble; causing trouble between people with the evil intention to create doubt, confusion and dissension; distraction; causing confusion; test; trial
+- id: fitrah
+  category: general
+  sort: fitrah
+  term: fitrah
+  description: pure nature; good trait
+- id: fuad
+  category: general
+  sort: fuad
+  term: fu'ad
+  description: spiritual heart; perception center
+- id: furqan
+  category: general
+  sort: furqan
+  term: Furqan
+  description: Criterion of right and wrong
+- id: ghafil
+  category: general
+  sort: ghafil
+  term: ghafil
+  description: unmindful; indifferent
+- id: ghafur
+  category: general
+  sort: ghafur
+  term: ghafur
+  description: absolving; tolerant; purifying
+- id: ghayb
+  category: general
+  sort: ghayb
+  term: ghayb
+  description: hidden; that which Allah has not yet created or revealed
+- id: ghayya
+  category: general
+  sort: ghayya
+  term: ghayya
+  description: seduction; deep valley in Hell
+- id: ghiba
+  category: general
+  sort: ghiba
+  term: ghiba
+  description: backbiting
+- id: ghilman
+  category: general
+  sort: ghilman
+  term: ghilman
+  description: plural of ghulam
+- id: ghulam
+  category: general
+  sort: ghulam
+  term: ghulam
+  description: youth
+- id: ghusul
+  category: general
+  sort: ghusul
+  term: ghusul
+  description: full bath or shower from head to toe
+- id: habibullah
+  category: general
+  sort: habibullah
+  term: Habibullah
+  description: Beloved of Allah; name attributed to Prophet Muhammad (pbuh)
+- id: hadith
+  category: general
+  sort: hadith
+  term: hadith
+  description: tradition; saying attributed to or anecdote regarding Prophet Muhammad (pbuh), according to eyewitness accounts; narration; revelation
+- id: hadith_qudsi
+  category: general
+  sort: hadithqudsi
+  term: hadith qudsi
+  description: holy hadith; a saying of Prophet Muhammad (pbuh) in which he quotes Allah's speech directly
+- id: hadith_sharif
+  category: general
+  sort: hadithsharif
+  term: hadith sharif
+  description: honorable hadith
+- id: hadiya
+  category: general
+  sort: hadiya
+  term: hadiya
+  description: gifts; offerings; something given from the heart without obligation
+- id: haj
+  category: general
+  sort: haj
+  term: Haj
+  description: Pilgrimage
+- id: halal
+  category: general
+  sort: halal
+  term: halal
+  description: lawful
+- id: hal_al_muhammad
+  category: general
+  sort: halimuhammad
+  term: Hal-i Muhammad
+  description: the spiritual state of Muhammad (pbuh); Prophet Muhammad's (pbuh) direct knowledge of Allah; ma'rifa
+- id: haman
+  category: general
+  sort: haman
+  term: Haman
+  description: high priest of the pharaoh in ancient Egypt
+- id: hamd
+  category: general
+  sort: hamd
+  term: hamd
+  description: grateful praise
+- id: hami
+  category: general
+  sort: hami
+  term: hami
+  description: one of several animals superstitiously distinguished by certain characteristics to be revered and dedicated to idols
+- id: hanif
+  category: general
+  sort: hanif
+  term: hanif
+  description: upright one; God-seeker; devout one; pious one; sincere and steadfast one in faith; one who adheres to the essence
+- id: haqiqa
+  category: general
+  sort: haqiqa
+  term: haqiqa
+  description: the state of knowing absolute truth
+- id: haqq
+  category: general
+  sort: haqq
+  term: haqq
+  description: truth; reality; established fact; science; scientific law; justice; balance; perfectly suitable; just right
+- id: haqq_al_yaqin
+  category: general
+  sort: haqqalyaqin
+  term: Haqq al Yaqin
+  description: truth received directly from Allah; sure knowledge
+- id: haram
+  category: general
+  sort: haram
+  term: haram
+  description: unlawful; forbidden; inviolable
+- id: harun
+  category: general
+  sort: harun
+  term: Harun
+  description: Aaron, Prophet
+- id: hashr
+  category: general
+  sort: hashr
+  term: hashr
+  description: to muster; to force or compel a gathering
+- id: hasib
+  category: general
+  sort: hasib
+  term: hasib
+  description: accountant; auditor; reckoner
+- id: hawa
+  category: general
+  sort: hawa-air
+  term: hawa
+  description: lit., air; lust; desire; whim
+- id: hawwa
+  category: general
+  sort: hawwa
+  term: Hawwa
+  description: Eve
+- id: hawl
+  category: general
+  sort: hawl
+  term: hawl
+  description: power, transformation
+- id: hazrat
+  category: general
+  sort: hazrat
+  term: Hazrat, Hazreti (Turkish)
+  description: honorific title
+- id: hidaya
+  category: general
+  sort: hidaya
+  term: hidaya
+  description: guidance
+- id: hikmah
+  category: general
+  sort: hikmah
+  term: hikmah
+  description: wisdom
+- id: hila
+  category: general
+  sort: hila
+  term: hila
+  description: trickery
+- id: hisaab
+  category: general
+  sort: hisaab
+  term: hisaab
+  description: fate; reckoning
+- id: hizbullah
+  category: general
+  sort: hizbullah
+  term: hizbullah
+  description: party of Allah
+- id: hud
+  category: general
+  sort: hud
+  term: Hud
+  description: Prophet of the `Ad people
+- id: hudan_mustaqim
+  category: general
+  sort: hudanmustaqim
+  term: hudan mustaqim
+  description: confirmed path of guidance
+- id: hukm
+  category: general
+  sort: hukm
+  term: hukm
+  description: authority; command; judgment; decree; verdict
+- id: humaza
+  category: general
+  sort: humaza
+  term: humaza
+  description: abusive slanderer
+- id: hur
+  category: general
+  sort: hur
+  term: hur
+  description: beautiful one
+- id: hutama
+  category: general
+  sort: hutama
+  term: hutama
+  description: that which consumes
+- id: ibad
+  category: general
+  sort: ibad
+  term: '`ibad'
+  description: plural of `abd
+- id: ibada
+  category: general
+  sort: ibada
+  term: '`ibada'
+  description: act of connection and devotion
+- id: ibadallahil_mukhlasin
+  category: general
+  sort: ibadallahilmukhlasin
+  term: '`ibadallahil mukhlasin'
+  description: sincere and dedicated ones who choose Allah as their goal; chosen devotees of Allah
+- id: ibadi
+  category: general
+  sort: ibadi
+  term: '`ibadi'
+  description: My devotees
+- id: iblis
+  category: general
+  sort: iblis
+  term: Iblis
+  description: The Devil; Satan
+- id: ibrahim
+  category: general
+  sort: ibrahim
+  term: Ibrahim
+  description: Abraham, Prophet
+- id: iddah
+  category: general
+  sort: iddah
+  term: '`iddah'
+  description: waiting period for a divorced woman until she may remarry, to safeguard her rights regarding possible pregnancy
+- id: idris
+  category: general
+  sort: idris
+  term: Idris
+  description: Enoch, Prophet
+- id: ifrit
+  category: general
+  sort: ifrit
+  term: ifrit
+  description: a class of jinn; crafty being
+- id: ihram
+  category: general
+  sort: ihram
+  term: ihram
+  description: the personal state of consecration during pilgrimage
+- id: ijaza
+  category: general
+  sort: ijaza
+  term: ijaza
+  description: permission; license to teach Sufism
+- id: ijtihad
+  category: general
+  sort: ijtihad
+  term: ijtihad
+  description: deduction; the process of reasoning through which one draws conclusions about a subject
+- id: ikhlas
+  category: general
+  sort: ikhlas
+  term: ikhlas
+  description: sincerity; purity
+- id: ilah
+  category: general
+  sort: ilah
+  term: ilah
+  description: higher power; god
+- id: ilahayn
+  category: general
+  sort: ilahayn
+  term: ilahayn
+  description: lit., both (pagan) gods
+- id: illiyin
+  category: general
+  sort: illiyin
+  term: '`Illiyin'
+  description: a star-like place where good souls go after death; a good person's record of deeds
+- id: ilm
+  category: general
+  sort: ilm
+  term: '`ilm'
+  description: knowledge; science; scholarship
+- id: ilm_al_ladun
+  category: general
+  sort: ilmalladun
+  term: '`Ilm al Ladun'
+  description: Divine Knowledge received directly from Allah
+- id: ilm_al_yaqin
+  category: general
+  sort: ilmalyaqin
+  term: '`Ilm al Yaqin'
+  description: sure knowledge through research or written/verbal communication
+- id: ilyas
+  category: general
+  sort: ilyas
+  term: Ilyas
+  description: Elias (Elijah), Prophet
+- id: imam
+  category: general
+  sort: imam
+  term: imam
+  description: leader
+- id: iman
+  category: general
+  sort: iman
+  term: iman
+  description: certainty of conviction and connection to Allah; faith; belief; acceptance; acknowledgement; accepted truth
+- id: indallah
+  category: general
+  sort: indallah
+  term: '`indallah'
+  description: nearness to or being in the presence of Allah
+- id: infaq
+  category: general
+  sort: infaq
+  term: infaq
+  description: sharing; distributing socially; maintaining others
+- id: injil
+  category: general
+  sort: injil
+  term: Injil
+  description: New Testament; Gospel
+- id: inna
+  category: general
+  sort: inna
+  term: inna
+  description: indeed; certainly; surely; truly; without a doubt; no doubt; in fact
+- id: insan
+  category: general
+  sort: insan
+  term: insan
+  description: human being
+- id: insan_al_kamil
+  category: general
+  sort: insanikamil
+  term: insan-i kamil
+  description: mature human being
+- id: insha_allah
+  category: general
+  sort: inshaallah
+  term: insha Allah
+  description: God willing; “What Allah wills will happen”
+- id: iqab
+  category: general
+  sort: iqab
+  term: '`iqab'
+  description: reprisal; payback; retribution; punishment; retaliation; requital
+- id: iqam_al_salat
+  category: general
+  sort: iqamalsalat
+  term: iqam al salat
+  description: the establishment of a system of connection and devotion to Allah
+- id: iqra
+  category: general
+  sort: iqra
+  term: iqra'
+  description: recite; read
+- id: iram
+  category: general
+  sort: iram
+  term: Iram
+  description: an ancient city with many columns
+- id: isa
+  category: general
+  sort: isa
+  term: Isa
+  description: Jesus, Prophet
+- id: isha
+  category: general
+  sort: isha
+  term: '`isha'
+  description: evening; salat in the evening
+- id: ishaq
+  category: general
+  sort: ishaq
+  term: Ishaq
+  description: Isaac, Prophet
+- id: ishq
+  category: general
+  sort: ishq
+  term: '`ishq'
+  description: love; passion; ardent desire
+- id: islam
+  category: general
+  sort: islam
+  term: Islam
+  description: surrender; submission; the acceptance of Allah's terms; making peace with Allah and His decrees
+- id: islam_al
+  category: general
+  sort: islamal
+  term: Islam, Al
+  description: The Acceptance (of Allah's terms)
+- id: ismail
+  category: general
+  sort: ismail
+  term: Ismail
+  description: Ishmael, Prophet
+- id: israf
+  category: general
+  sort: israf
+  term: israf
+  description: wasteful excess
+- id: istidraj
+  category: general
+  sort: istidraj
+  term: istidraj
+  description: to lead on; a test of sincerity by forestalling the consequences of wrong action
+- id: istighfar
+  category: general
+  sort: istighfar
+  term: istighfar
+  description: asking forgiveness
+- id: ittekaf
+  category: general
+  sort: ittekaf
+  term: ittekaf
+  description: seclusion
+- id: ittiqa
+  category: general
+  sort: ittiqa
+  term: ittiqa
+  description: watching for Allah's good pleasure with one's deeds; guarding oneself from evil or harm; not offending Allah in one's actions; action with connection
+- id: jahannam
+  category: general
+  sort: jahannam
+  term: Jahannam
+  description: Hell
+- id: jahri
+  category: general
+  sort: jahri
+  term: jahri
+  description: in a hearable voice; loud
+- id: jahri_zikr
+  category: general
+  sort: jahrizikr
+  term: jahri zikr
+  description: outward, audible or loud zikr
+- id: jalabib
+  category: general
+  sort: jalabib
+  term: jalabib
+  description: plural of jilbab
+- id: jalal
+  category: general
+  sort: jalal
+  term: jalal
+  description: wrath; power
+- id: jalut
+  category: general
+  sort: jalut
+  term: Jalut
+  description: Goliath
+- id: jamal
+  category: general
+  sort: jamal
+  term: jamal
+  description: mercy; beauty; kindness
+- id: janna
+  category: general
+  sort: janna
+  term: janna
+  description: garden; paradise; heaven (non-specific)
+- id: janna_al
+  category: general
+  sort: jannaal
+  term: Janna, Al
+  description: The Garden; Paradise; Heaven
+- id: jannaat_al_adnin
+  category: general
+  sort: jannaataladnin
+  term: Jannaat al `Adnin
+  description: Gardens of Eden; eternity
+- id: jannaat_al_naim
+  category: general
+  sort: jannaatalnaim
+  term: Jannaat al Na'im
+  description: plural of Jannat al Na'im
+- id: jannat_al_firdaws
+  category: general
+  sort: jannatalfirdaws
+  term: Jannat al Firdaws, Jannatul Firdaws
+  description: the highest level of Paradise
+- id: jannat_al_mawa
+  category: general
+  sort: jannatalmawa
+  term: Jannat al Ma'wa, Jannatul Ma'wa
+  description: Garden of Refuge and Retreat
+- id: jannat_al_naim
+  category: general
+  sort: jannatalnaim
+  term: Jannat al Na'im, Jannati,-a Na'im
+  description: Garden of Bliss
+- id: jazaa
+  category: general
+  sort: jazaa
+  term: jazaa'
+  description: reward; consequence; just deserts
+- id: jibril
+  category: general
+  sort: jibril
+  term: Jibril
+  description: Archangel Gabriel
+- id: jihad
+  category: general
+  sort: jihad
+  term: jihad
+  description: struggle; exertion
+- id: jihad_al_akbar
+  category: general
+  sort: jihadalakbar
+  term: jihad al akbar, jihadul akbar
+  description: the greater struggle, i.e., the fight against one's nafs
+- id: jilbab
+  category: general
+  sort: jilbab
+  term: jilbab
+  description: outer garment; cloak
+- id: jinn
+  category: general
+  sort: jinn
+  term: jinn
+  description: hidden being(s)
+- id: jizya
+  category: general
+  sort: jizya
+  term: jizya
+  description: tax
+- id: jumuah
+  category: general
+  sort: jumuah
+  term: jumu'ah
+  description: the Friday congregational prayer, which is considered obligatory for adult Muslim males
+- id: junub
+  category: general
+  sort: junub
+  term: junub
+  description: uncleanliness due to sexual activity
+- id: juz
+  category: general
+  sort: juz
+  term: juz
+  description: one of the thirty even parts into which the Quran is traditionally divided, with the intention of the whole of the Quran being read in thirty days, e.g., during the holy month of Ramadan
+- id: kaaba
+  category: general
+  sort: kaaba
+  term: Ka'aba
+  description: The Sanctuary; Inviolable Place of Devotion; Mosque in Mecca; House of Allah
+- id: kadhalik
+  category: general
+  sort: kadhalik
+  term: kadhalik
+  description: then; so; thus; in this manner
+- id: kafa
+  category: general
+  sort: kafa
+  term: kafa
+  description: enough; sufficient
+- id: kafir
+  category: general
+  sort: kafir
+  term: kafir
+  description: rejecter; denier; disbeliever; unbeliever; infidel; disputer; dissident
+- id: kafirin
+  category: general
+  sort: kafirin
+  term: kafirin, kafirun, kufara
+  description: plural of kafir
+- id: kalamullah
+  category: general
+  sort: kalamullah
+  term: kalamullah
+  description: Allah's words
+- id: kalima
+  category: general
+  sort: kalima
+  term: kalima
+  description: word; speech; saying; command; decree; pledge; agreement; science
+- id: kalimat
+  category: general
+  sort: kalimat
+  term: kalimat
+  description: plural of kalima
+- id: kalimat_al_tawhid
+  category: general
+  sort: kalimataltawhid
+  term: Kalimat al Tawhid
+  description: Utterance of Oneness (“La ilaha illa Hu” [“There is no god but Him”])
+- id: kamil
+  category: general
+  sort: kamil
+  term: kamil
+  description: mature
+- id: kanz_al_makhfi
+  category: general
+  sort: kanzimakhfi
+  term: Kanz-i Makhfi
+  description: Secret Treasure (Allah)
+- id: kashf
+  category: general
+  sort: kashf
+  term: kashf
+  description: unveiling; observation; spiritual understanding
+- id: kathrat
+  category: general
+  sort: kathrat
+  term: kathrat
+  description: multiplicity
+- id: kawthar
+  category: general
+  sort: kawthar
+  term: Kawthar
+  description: Drink of Paradise
+- id: khafi
+  category: general
+  sort: khafi
+  term: khafi
+  description: hidden; subtle
+- id: khafi_zikr
+  category: general
+  sort: khafizikr
+  term: khafi zikr
+  description: silent zikr
+- id: khalidun
+  category: general
+  sort: khalidun
+  term: khalidun
+  description: for a long, long time
+- id: khaliduna_abada
+  category: general
+  sort: khalidunaabada
+  term: khaliduna abada
+  description: forever; eternally
+- id: khalifa
+  category: general
+  sort: khalifa
+  term: khalifa
+  description: representative; deputy; caretaker; custodian; administrator
+- id: khalq
+  category: general
+  sort: khalq
+  term: khalq
+  description: lit., creation; the creative principle, from Allah's name Al Khaliq [The Creator]
+- id: khas
+  category: general
+  sort: khas
+  term: khas
+  description: special; designated; destined
+- id: khashiya
+  category: general
+  sort: khashiya
+  term: khashiya
+  description: to be mindful and respectful
+- id: khasirin
+  category: general
+  sort: khasirin
+  term: khasirin, khasirun
+  description: those who despair; those who are disappointed; those whose expectations or hopes are crushed
+- id: khawas
+  category: general
+  sort: khawas
+  term: khawas
+  description: people of rare distinction
+- id: khayr
+  category: general
+  sort: khayr
+  term: khayr
+  description: good; goodness; that which is beneficial and blessed; benefit; better
+- id: khulafa
+  category: general
+  sort: khulafa
+  term: khulafa
+  description: plural of khalifa
+- id: khusr
+  category: general
+  sort: khusr
+  term: khusr
+  description: to be disappointed; to be in despair; a sense of futility; having one's hopes crushed
+- id: khutba
+  category: general
+  sort: khutba
+  term: khutba
+  description: sermon
+- id: kitab
+  category: general
+  sort: kitab
+  term: Kitab
+  description: book; scripture; record; Record of Knowledge; Recorded Decree; Universal Repository of All Knowledge; established and applied knowledge; knowledge of a particular subject; laws and regulations; database; Divine Blueprint
+- id: kitabin_mubin
+  category: general
+  sort: kitabinmubin
+  term: Kitabin Mubin, Kitabi al Mubin
+  description: Clear Book (of references); Book that Makes Everything Clear; established knowledge; scientific fact
+- id: kitabun_hafiz
+  category: general
+  sort: kitabunhafiz
+  term: Kitabun Hafiz
+  description: book that contains and preserves all knowledge
+- id: kufr
+  category: general
+  sort: kufr
+  term: kufr
+  description: disbelief; rejection of the truth
+- id: kun
+  category: general
+  sort: kun
+  term: Kun
+  description: “Be!”, Allah's command that brings about the existence of a thing
+- id: kursi
+  category: general
+  sort: kursi
+  term: kursi
+  description: throne
+- id: laalla
+  category: general
+  sort: laalla
+  term: la'alla, la'allakum
+  description: perchance; with hope that; so that you may
+- id: laanah
+  category: general
+  sort: laanah
+  term: la'anah
+  description: curse; ill-will; disapproval; excommunication; malediction; damnation
+- id: laghwa
+  category: general
+  sort: laghwa
+  term: laghwa
+  description: foolish, idle talk
+- id: la_ilaha_illallah
+  category: general
+  sort: lailahaillallah
+  term: La ilaha illallah
+  description: “There is no other higher power than Allah”
+- id: la_makaan
+  category: general
+  sort: lamakaan
+  term: La Makaan
+  description: lit., “Without Place”; the omnipresence of Allah
+- id: la_maqsuda_illallah
+  category: general
+  sort: lamaqsudaillallah
+  term: La maqsuda illallah
+  description: “There is no goal other than Allah”
+- id: laqad
+  category: general
+  sort: laqad
+  term: laqad
+  description: certainly
+- id: lat
+  category: general
+  sort: lat
+  term: Lat, Al
+  description: pagan Arab deity that was called “Daughter of Allah”
+- id: lataif
+  category: general
+  sort: lataif
+  term: lata'if
+  description: spiritual perception point within a human being
+- id: latif
+  category: general
+  sort: latif
+  term: latif
+  description: subtle; kind; nice
+- id: laylatul_miraj
+  category: general
+  sort: laylatulmiraj
+  term: Laylatul Mi'raj
+  description: The night of Prophet Muhammad's (pbuh) spiritual, metaphysical journey to Allah's presence
+- id: laylatul_qadr
+  category: general
+  sort: laylatulqadr
+  term: Laylatul Qadr
+  description: Night of Power
+- id: liqa
+  category: general
+  sort: liqa
+  term: liqa
+  description: joining
+- id: lut
+  category: general
+  sort: lut
+  term: Lut
+  description: Lot, Prophet
+- id: mabud
+  category: general
+  sort: mabud
+  term: Ma'bud
+  description: Object of devotion (Allah)
+- id: maghfirah
+  category: general
+  sort: maghfirah
+  term: maghfirah
+  description: pardon
+- id: maghrib
+  category: general
+  sort: maghrib
+  term: maghrib
+  description: west; sunset; salat just after sunset
+- id: mahrum
+  category: general
+  sort: mahrum
+  term: mahrum
+  description: deprived and needy one
+- id: makara
+  category: general
+  sort: makara
+  term: makara
+  description: scheme; plot; strategize; devise
+- id: malik
+  category: general
+  sort: malik
+  term: malik
+  description: king; ruler
+- id: manat
+  category: general
+  sort: manat
+  term: Manat
+  description: pagan Arab deity that was called “Daughter of Allah”
+- id: maqam
+  category: general
+  sort: maqam
+  term: maqam
+  description: station; place; position; headquarters; presence
+- id: maqam_al_mahmud
+  category: general
+  sort: maqamalmahmud
+  term: maqam al mahmud
+  description: station of gratitude and praise
+- id: maqsad
+  category: general
+  sort: maqsad
+  term: maqsad
+  description: purpose; goal
+- id: marid
+  category: general
+  sort: marid
+  term: marid
+  description: rebellious one
+- id: marifa
+  category: general
+  sort: marifa
+  term: ma'rifa
+  description: direct knowledge of Allah; the deepest state of spiritual understanding
+- id: maruf
+  category: general
+  sort: maruf
+  term: ma'ruf
+  description: commonly known; acceptable; according to accepted norms
+- id: maryam
+  category: general
+  sort: maryam
+  term: Maryam
+  description: Mary, mother of Isa
+- id: masabih
+  category: general
+  sort: masabih
+  term: masabih
+  description: lit., lamps or lights; heavenly bodies
+- id: masakin
+  category: general
+  sort: masakin
+  term: masakin
+  description: needy ones; plural of miskin
+- id: masha_allah
+  category: general
+  sort: mashaallah
+  term: Masha Allah
+  description: “Without Allah's will nothing happens”
+- id: masih_al
+  category: general
+  sort: masih
+  term: Masih, Al
+  description: The Messiah
+- id: masir
+  category: general
+  sort: masir
+  term: masir
+  description: destination
+- id: masjid
+  category: general
+  sort: masjid
+  term: masjid
+  description: mosque; place of worship and devotion; sanctuary
+- id: masjid_al_aqsa
+  category: general
+  sort: masjidalaqsa
+  term: Masjid Al Aqsa
+  description: Farthest Mosque; mosque in Jerusalem
+- id: masjid_al_haram
+  category: general
+  sort: masjidalharam
+  term: Masjid Al Haram
+  description: Ka'aba; Sanctuary; Inviolable or Sacred Place of Devotion; Mosque in Mecca
+- id: mathal
+  category: general
+  sort: mathal
+  term: mathal
+  description: analogy
+- id: mawla
+  category: general
+  sort: mawla
+  term: mawla
+  description: protector; guardian; master; lord
+- id: mawlana
+  category: general
+  sort: mawlana
+  term: mawlana
+  description: spiritual teacher; our lord
+- id: midian
+  category: general
+  sort: midian
+  term: Midian
+  description: people to whom Prophet Shuaib was sent
+- id: mikail
+  category: general
+  sort: mikail
+  term: Mikail
+  description: Archangel Michael
+- id: millat
+  category: general
+  sort: millat
+  term: millat
+  description: path; denomination; community; way
+- id: miraj
+  category: general
+  sort: miraj
+  term: Mi'raj
+  description: Prophet Muhammad's (pbuh) spiritual, metaphysical Night Journey to Allah's presence; spiritual ascension; being raised to Allah's presence
+- id: miraj_al_manawiy
+  category: general
+  sort: mirajulmanawiy
+  term: Mi'raj ul Ma'nawiy
+  description: Spiritual Mi'raj
+- id: miskin
+  category: general
+  sort: miskin
+  term: miskin
+  description: needy one
+- id: mizan
+  category: general
+  sort: mizan
+  term: mizan
+  description: balance; measure; proportion
+- id: mizan_al
+  category: general
+  sort: mizanal
+  term: Mizan, Al
+  description: The Balance; The Scale; The Standard of Measure; universal balance
+- id: mount_tur
+  category: general
+  sort: mounttur
+  term: Mount Tur
+  description: mountain near the place where Allah spoke to Musa
+- id: mubin
+  category: general
+  sort: mubin
+  term: mubin
+  description: clear; obvious; open; self-confirming
+- id: muhajirin
+  category: general
+  sort: muhajirin
+  term: muhajirin, muhajirun
+  description: immigrants/emigrants in the way of Allah
+- id: muhsin
+  category: general
+  sort: muhsin
+  term: muhsin
+  description: charitable one; giver; good one
+- id: muhsinin
+  category: general
+  sort: muhsinin
+  term: muhsinin
+  description: plural of muhsin
+- id: mujrim
+  category: general
+  sort: mujrim
+  term: mujrim
+  description: guilty one; arrogant criminal; defiant one
+- id: mujrimin
+  category: general
+  sort: mujrimin
+  term: mujrimin, mujrimun
+  description: plural of mujrim
+- id: mukhlas
+  category: general
+  sort: mukhlas
+  term: mukhlas
+  description: sincere and dedicated one who chooses Allah as his or her goal
+- id: mukhlasin
+  category: general
+  sort: mukhlasin
+  term: mukhlasin
+  description: plural of mukhlas
+- id: mukhlis
+  category: general
+  sort: mukhlis
+  term: mukhlis
+  description: sincere; pure; unpolluted
+- id: mulhama
+  category: general
+  sort: mulhama
+  term: mulhama
+  description: inspired
+- id: mulk
+  category: general
+  sort: mulk
+  term: mulk
+  description: sovereignty; domain; realm; kingdom
+- id: mumin
+  category: general
+  sort: mumin
+  term: mu'min
+  description: believer; one who accepts, believes in and complies with the truth; one who knows in their heart and through their experience that what Allah says and does, and is able to do, are all true
+- id: muminat
+  category: general
+  sort: muminat
+  term: mu'minat
+  description: believing women
+- id: muminin
+  category: general
+  sort: muminin
+  term: mu'minin, mu'minun
+  description: plural of mu'min; believing men
+- id: mumtarin
+  category: general
+  sort: mumtarin
+  term: mumtarin
+  description: those who doubt
+- id: munafiq
+  category: general
+  sort: munafiq
+  term: munafiq
+  description: hypocrite; hypocritical; troublemaker
+- id: munafiqin
+  category: general
+  sort: munafiqin
+  term: munafiqin, munafiqun
+  description: plural of munafiq
+- id: munkir
+  category: general
+  sort: munkir
+  term: munkir
+  description: denier
+- id: muqinin
+  category: general
+  sort: muqinin
+  term: muqinin
+  description: those who have certainty
+- id: muqsitin
+  category: general
+  sort: muqsitin
+  term: muqsitin
+  description: those who act with justice
+- id: muraqaba
+  category: general
+  sort: muraqaba
+  term: muraqaba
+  description: watching over carefully; meditation
+- id: mursalin
+  category: general
+  sort: mursalin
+  term: mursalin, mursalun
+  description: messengers
+- id: murshid
+  category: general
+  sort: murshid
+  term: murshid
+  description: enlightener; teacher who guides
+- id: murtad
+  category: general
+  sort: murtad
+  term: murtad
+  description: one who reneges on a pledge; apostate
+- id: musa
+  category: general
+  sort: musa
+  term: Musa
+  description: Moses, Prophet
+- id: musallih
+  category: general
+  sort: musallih
+  term: musallih
+  description: one who prays and connects to Allah; person of salat
+- id: musallin
+  category: general
+  sort: musallin
+  term: musallin
+  description: plural of musallih
+- id: musbaha
+  category: general
+  sort: musbaha
+  term: musbaha
+  description: string of prayer beads; rosary; also known as tasbih
+- id: mushrik
+  category: general
+  sort: mushrik
+  term: mushrik
+  description: one who attributes partners to Allah; idol-worshipper
+- id: mushrikin
+  category: general
+  sort: mushrikin
+  term: mushrikin
+  description: plural of mushrik
+- id: musibat
+  category: general
+  sort: musibat
+  term: musibat
+  description: random misfortunes or disasters
+- id: muslim
+  category: general
+  sort: muslim
+  term: Muslim
+  description: one who accepts and makes peace with Allah and His decrees
+- id: muslimin
+  category: general
+  sort: muslimin
+  term: muslimin, muslimun
+  description: plural of muslim
+- id: mustaqim
+  category: general
+  sort: mustaqim
+  term: mustaqim
+  description: path of Allah
+- id: mutafika_al
+  category: general
+  sort: mutafika
+  term: Mu'tafika, Al
+  description: the people of Lut; The Overturned Cities, e.g., Sodom and Gomorrah
+- id: muttaqin
+  category: general
+  sort: muttaqin
+  term: muttaqin, muttaqun
+  description: those who watch over their deeds to conform with Allah's rights and wrongs
+- id: naar
+  category: general
+  sort: naar
+  term: naar
+  description: fire
+- id: naar_al
+  category: general
+  sort: naaral
+  term: Naar, Al
+  description: The Fire
+- id: naas
+  category: general
+  sort: naas
+  term: naas
+  description: humanity
+- id: nabi
+  category: general
+  sort: nabi
+  term: nabi
+  description: prophet
+- id: nabiyin
+  category: general
+  sort: nabiyin
+  term: nabiyin, nabiyun
+  description: plural of nabi
+- id: nabudu
+  category: general
+  sort: nabudu
+  term: Na'budu
+  description: “We connect to, are devoted to and love”
+- id: nafaqa
+  category: general
+  sort: nafaqa
+  term: nafaqa
+  description: money spent for support and maintenance of others; assistance
+- id: nafl
+  category: general
+  sort: nafl
+  term: nafl
+  description: Islamic prayers that are not considered obligatory but are believed to confer extra benefit on the person performing them
+- id: nafs
+  category: general
+  sort: nafs
+  term: nafs
+  description: lit., breath; self; person; egoistic or animalistic nature; personal life
+- id: nafs_al_ammara
+  category: general
+  sort: nafsiammara
+  term: Nafs-i Ammara, Nafs al Ammara
+  description: Dominant Self; the first of seven main levels of nafs attained in the process of Sufi purification
+- id: nafs_al_lawwama
+  category: general
+  sort: nafsilawwama
+  term: Nafs-i Lawwama, Nafs al Lawwama
+  description: Self-Blaming Nafs; the second of seven main levels of nafs attained in the process of Sufi purification
+- id: nafs_al_mardziyya
+  category: general
+  sort: nafsimardziyya
+  term: Nafs-i Mardziyya, Nafs al Mardziyya
+  description: Satisfied Self; the sixth of seven main levels of nafs attained in the process of Sufi purification
+- id: nafs_al_mulhama
+  category: general
+  sort: nafsimulhama
+  term: Nafs-i Mulhama, Nafs al Mulhama
+  description: Inspired Self; the third level of seven main levels of nafs attained in the process of Sufi purification
+- id: nafs_al_mutmaina
+  category: general
+  sort: nafsimutmaina
+  term: Nafs-i Mutma'ina, Nafs al Mutma'ina
+  description: Tranquil Self; the fourth of seven main levels of nafs attained in the process of Sufi purification
+- id: nafs_al_radziyya
+  category: general
+  sort: nafsiradziyya
+  term: Nafs-i Radziyya, Nafs al Radziyya
+  description: Satisfying Self; the fifth of seven main levels of nafs attained in the process of Sufi purification
+- id: nafs_al_safiyya
+  category: general
+  sort: nafsisafiyya
+  term: Nafs-i Safiyya, Nafs al Safiyya
+  description: Purified Self; the seventh of seven main levels of nafs attained in the process of Sufi purification
+- id: naim
+  category: general
+  sort: naim
+  term: na'im
+  description: bliss; delight
+- id: namaz
+  category: general
+  sort: namaz
+  term: namaz
+  description: formal Islamic worship that is observed five times daily; also known as salat
+- id: nasara
+  category: general
+  sort: nasara
+  term: Nasara
+  description: Christian(s)
+- id: nasir
+  category: general
+  sort: nasir
+  term: nasir
+  description: helper
+- id: nasirin
+  category: general
+  sort: nasirin
+  term: nasirin, nasiran
+  description: plural of nasir
+- id: nikaah
+  category: general
+  sort: nikaah
+  term: nikaah
+  description: marriage ceremony; marriage tie
+- id: nima
+  category: general
+  sort: nima
+  term: ni'ma
+  description: favor; blessing; grace; kindness; benefit; comfort; pleasure; delight
+- id: niyaz
+  category: general
+  sort: niyaz
+  term: niyaz
+  description: supplication to Allah with kind words
+- id: niyyat
+  category: general
+  sort: niyyat
+  term: niyyat
+  description: intention
+- id: nuh
+  category: general
+  sort: nuh
+  term: Nuh
+  description: Noah, Prophet
+- id: nur
+  category: general
+  sort: nur
+  term: nur
+  description: light; reflected light; guidance; enlightenment; knowledge; energy
+- id: pir
+  category: general
+  sort: pir
+  term: pir
+  description: spiritual ancestor; founder of a Sufi tariqa; living principal of a Sufi tariqa
+- id: qabd
+  category: general
+  sort: qabd
+  term: qabd
+  description: contraction; constriction
+- id: qaddas_allahu_sirrahu
+  category: general
+  sort: qaddasallahusirrahu
+  term: Qaddas Allahu sirrahu
+  description: “May Allah sanctify his secret”
+- id: qadr
+  category: general
+  sort: qadr
+  term: qadr
+  description: formulas; measure; laws and regulations; guidelines; the law of probability; power
+- id: qahr
+  category: general
+  sort: qahr
+  term: qahr
+  description: wrath
+- id: qalb
+  category: general
+  sort: qalb
+  term: qalb
+  description: heart
+- id: qalbi_zikr
+  category: general
+  sort: qalbizikr
+  term: qalbi zikr
+  description: inner zikr
+- id: qalu_balaa
+  category: general
+  sort: qalubalaa
+  term: Qalu Balaa
+  description: Covenant at the beginning of creation between the souls and Allah
+- id: qanaat
+  category: general
+  sort: qanaat
+  term: qana'at
+  description: contentment
+- id: qarib
+  category: general
+  sort: qarib
+  term: qarib
+  description: kin; near family; related; close physical and spiritual relationship; connected
+- id: qarin
+  category: general
+  sort: qarin
+  term: qarin
+  description: evil companion; instigator
+- id: qarun
+  category: general
+  sort: qarun
+  term: Qarun
+  description: Korah, a wealthy and arrogant relative of Prophet Musa
+- id: qasas
+  category: general
+  sort: qasas
+  term: qasas
+  description: anecdote; story
+- id: qawl_al_muhammad
+  category: general
+  sort: qawlimuhammad
+  term: Qawl-i Muhammad
+  description: what Allah said through Prophet Muhammad (pbuh); sharia
+- id: qawlun_fasal
+  category: general
+  sort: qawlunfasal
+  term: qawlun fasal
+  description: word or utterance that separates right from wrong; The Quran
+- id: qawm
+  category: general
+  sort: qawm
+  term: qawm
+  description: community; people
+- id: qawmin_yaqilun
+  category: general
+  sort: qawminyaqilun
+  term: qawmin ya'qilun
+  description: people who use logic and intellect in seeking the truth
+- id: qibla
+  category: general
+  sort: qibla
+  term: qibla
+  description: direction turned to during prayer, which is geographically towards the Ka'aba
+- id: qisas
+  category: general
+  sort: qisas
+  term: qisas
+  description: compensation; retaliation; retribution; judgment
+- id: qiyamah
+  category: general
+  sort: qiyamah
+  term: qiyamah
+  description: resurrection
+- id: qulub
+  category: general
+  sort: qulub
+  term: qulub
+  description: plural of qalb
+- id: quran
+  category: general
+  sort: quran
+  term: Quran
+  description: Lecture; Recitation; Text
+- id: quran_al_karim
+  category: general
+  sort: quranalkarim
+  term: Quran Al Karim, Quran-i Karim
+  description: Generous Text
+- id: quran_al_majid
+  category: general
+  sort: quranalmajid
+  term: Quran Al Majid, Quranun Majid
+  description: Glorious Text
+- id: quraysh
+  category: general
+  sort: quraysh
+  term: Quraysh
+  description: the Arabian tribe to which Prophet Muhammad (pbuh) belonged
+- id: qurb
+  category: general
+  sort: qurb
+  term: qurb
+  description: nearness; closeness
+- id: rab
+  category: general
+  sort: rab
+  term: Rab
+  description: Lord; Master; Sustainer; Cherisher
+- id: rabita
+  category: general
+  sort: rabita
+  term: rabita
+  description: purposeful spiritual connection; heartfelt connection
+- id: radi_allahu_anhu
+  category: general
+  sort: radiallahuanhu
+  term: Radi Allahu `anhu
+  description: “May Allah be pleased with them”
+- id: rafaa
+  category: general
+  sort: rafaa
+  term: rafa'a
+  description: raised
+- id: rahma
+  category: general
+  sort: rahma
+  term: rahma
+  description: mercy and kindness; grace
+- id: rajim
+  category: general
+  sort: rajim
+  term: rajim
+  description: expelled; outcast
+- id: rakat
+  category: general
+  sort: rakat
+  term: rak'at
+  description: cycle of standing, kneeling/sitting and prostrating during formal Islamic prayer
+- id: rashid
+  category: general
+  sort: rashid
+  term: rashid
+  description: mature; wise; of sound mind; sensible; rational
+- id: rass
+  category: general
+  sort: rass
+  term: Rass, Al
+  description: lit., The Deep Well; Community or People of the Deep Well
+- id: rasul
+  category: general
+  sort: rasul
+  term: rasul
+  description: messenger
+- id: riba
+  category: general
+  sort: riba
+  term: riba
+  description: usury; excessive monetary interest
+- id: rida
+  category: general
+  sort: rida
+  term: rida
+  description: contentment; good pleasure; satisfaction; approval
+- id: rijal
+  category: general
+  sort: rijal
+  term: rijal
+  description: people who are true to their vows under all circumstances
+- id: rijal_al_ghayb
+  category: general
+  sort: rijalalghayb
+  term: rijal al ghayb
+  description: saints who can see remotely or travel through time and space in the service of Allah
+- id: rizq
+  category: general
+  sort: rizq
+  term: rizq
+  description: sustenance; provision
+- id: rizqun_karim
+  category: general
+  sort: rizqunkarim
+  term: rizqun karim
+  description: generous provision
+- id: ruh
+  category: general
+  sort: ruh
+  term: ruh
+  description: spirit; essential life energy; soul
+- id: ruhul_amin
+  category: general
+  sort: ruhulamin
+  term: Ruhul Amin
+  description: lit., Trusted Spirit; Jibril [Archangel Gabriel]
+- id: ruhul_jismani
+  category: general
+  sort: ruhuljismani
+  term: ruhul jismani
+  description: corporeal soul
+- id: ruhul_quds
+  category: general
+  sort: ruhulquds
+  term: Ruhul Quds
+  description: lit., Holy Spirit; Creative Energy; Jibril [Archangel Gabriel]
+- id: ruhul_ruhani
+  category: general
+  sort: ruhulruhani
+  term: ruhul ruhani
+  description: hidden soul
+- id: ruhul_seyrani
+  category: general
+  sort: ruhulseyrani
+  term: ruhul seyrani
+  description: moving soul
+- id: ruhul_sultani
+  category: general
+  sort: ruhulsultani
+  term: ruhul sultani
+  description: kingly soul
+- id: saba
+  category: general
+  sort: saba
+  term: Saba
+  description: Sheba
+- id: sabbih_bi_hamd
+  category: general
+  sort: sabbihbihamd
+  term: sabbih bi hamd
+  description: to perform tasbih by praising with gratitude
+- id: sabil
+  category: general
+  sort: sabil
+  term: sabil
+  description: sake; goodwill; cause
+- id: sabil_al_rashaad
+  category: general
+  sort: sabilalrashaad
+  term: sabil al rashaad
+  description: sensible policy
+- id: sabirin
+  category: general
+  sort: sabirin
+  term: sabirin
+  description: those who are patient; those who persevere
+- id: sabr
+  category: general
+  sort: sabr
+  term: sabr
+  description: patience; steadfastness; perseverance
+- id: sadaqa
+  category: general
+  sort: sadaqa
+  term: sadaqa
+  description: charity; alms
+- id: sadr
+  category: general
+  sort: sadr
+  term: sadr
+  description: chest; innermost self; door to the heart
+- id: safa_and_marwa
+  category: general
+  sort: safaandmarwa
+  term: Safa and Marwa
+  description: holy hills in Mecca
+- id: sahaba
+  category: general
+  sort: sahaba
+  term: sahaba
+  description: companions of Prophet Muhammad (pbuh)
+- id: sajda
+  category: general
+  sort: sajda
+  term: sajda
+  description: prostration; acknowledgement of Allah's sovereignty
+- id: salaam
+  category: general
+  sort: salaam
+  term: salaam
+  description: peace
+- id: salaam_alaykum
+  category: general
+  sort: salaamalaykum
+  term: Salaam `alaykum, Salaamun `alaykum, As-salaamu `alaykum
+  description: “Peace be upon you.”
+- id: salat
+  category: general
+  sort: salat
+  term: salat
+  description: prayer; formal Islamic worship that is observed five times daily; making connection to Allah; a system of connection and devotion to Allah
+- id: salat_al_asr
+  category: general
+  sort: salatalasr
+  term: salat al `asr, salatul `asr
+  description: afternoon prayer
+- id: salat_al_fajr
+  category: general
+  sort: salatalfajr
+  term: salat al fajr, salatul fajr
+  description: morning prayer
+- id: salat_al_isha
+  category: general
+  sort: salatalisha
+  term: salat al `isha, salatul `isha
+  description: night prayer
+- id: salat_al_maghrib
+  category: general
+  sort: salatalmaghrib
+  term: salat al maghrib, salatul maghrib
+  description: evening prayer
+- id: salat_al_zuhr
+  category: general
+  sort: salatalzuhr
+  term: salat al zuhr, salatul zuhr
+  description: noontime prayer
+- id: salawat
+  category: general
+  sort: salawat
+  term: salawat
+  description: peace and blessings; the invocation of peace and blessings upon Prophet Muhammad (pbuh)
+- id: saleh
+  category: general
+  sort: saleh
+  term: Saleh
+  description: Prophet of the Thamud people
+- id: salih
+  category: general
+  sort: salih
+  term: salih
+  description: righteous one; healthy or pure one
+- id: salihin
+  category: general
+  sort: salihin
+  term: salihin
+  description: plural of salih
+- id: salsabil
+  category: general
+  sort: salsabil
+  term: Salsabil
+  description: a spring of pure water in Paradise
+- id: sama
+  category: general
+  sort: sama
+  term: sama'
+  description: lit., hearing; turning or revolving in ecstasy; space; heaven; universe
+- id: samawat
+  category: general
+  sort: samawat
+  term: samawat
+  description: heavens; universes; space; revolving bodies in space
+- id: samiri
+  category: general
+  sort: samiri
+  term: Samiri
+  description: person who influenced Musa's people to cast a false idol
+- id: saqar
+  category: general
+  sort: saqar
+  term: saqar
+  description: hellfire
+- id: sayyia
+  category: general
+  sort: sayyia
+  term: sayyi'a
+  description: suffering that is a consequence of evil deeds
+- id: shadid
+  category: general
+  sort: shadid
+  term: shadid
+  description: severe; stern; uncompromising; adamant
+- id: shafi
+  category: general
+  sort: shafi
+  term: shafi'
+  description: intercessor
+- id: shahada
+  category: general
+  sort: shahada
+  term: shahada
+  description: testimony; visible creation; statement of Islamic faith (“Ashadu an la ilaha illallah, wa ashadu anna muhammadan rasulullah [I testify that there is no higher power but God, and I testify that Muhammad is the Messenger of God]”)
+- id: shahid
+  category: general
+  sort: shahid
+  term: shahid
+  description: martyr; witness; confirmed observer; Allah's observer
+- id: shahidin
+  category: general
+  sort: shahidin
+  term: shahidin
+  description: plural of shahid
+- id: shakir
+  category: general
+  sort: shakir
+  term: shakir
+  description: responsive; appreciative; thankful
+- id: shaqi
+  category: general
+  sort: shaqi
+  term: shaqi
+  description: rebellious outlaw; bandit; thief; oppressor
+- id: sharia
+  category: general
+  sort: sharia
+  term: sharia
+  description: proper behavior; commandment; law; divine law; the body of Islamic religious canons; injunctions attributed to Prophet Muhammad (pbuh) regarding proper behavior for Muslims
+- id: sharr
+  category: general
+  sort: sharr
+  term: sharr
+  description: evil; harm; affliction; negativity; misfortune
+- id: shayatin
+  category: general
+  sort: shayatin
+  term: shayatin
+  description: plural of shaytan; tribe of Satan; evil ones; devils
+- id: shaykh
+  category: general
+  sort: shaykh
+  term: shaykh, shaykha
+  description: spiritual teacher; teacher; elder
+- id: shaytan
+  category: general
+  sort: shaytan
+  term: Shaytan
+  description: Satan; one from the tribe of Satan
+- id: shaytan_al_rajim
+  category: general
+  sort: shaytanalrajim
+  term: Shaytan al rajim, Shaytanir rajim
+  description: Satan, the outcast
+- id: shirk
+  category: general
+  sort: shirk
+  term: shirk
+  description: attributing partners to Allah
+- id: shirk_e_khafi
+  category: general
+  sort: shirkekhafi
+  term: shirk-e khafi, shirk-i khafi, shirk al khafi
+  description: hidden shirk
+- id: shuaib
+  category: general
+  sort: shuaib
+  term: Shu'aib
+  description: Jethro, Prophet
+- id: shura
+  category: general
+  sort: shura
+  term: shura
+  description: research; inquiry; to seek advice; to consult; to take counsel
+- id: sibgha
+  category: general
+  sort: sibgha
+  term: sibgha
+  description: coloring; difference in genetic character or makeup
+- id: siddiq
+  category: general
+  sort: siddiq
+  term: siddiq
+  description: truthful and loyal one
+- id: sifat
+  category: general
+  sort: sifat
+  term: sifat
+  description: attributes
+- id: sijjin
+  category: general
+  sort: sijjin
+  term: Sijjin
+  description: a star-like place where bad souls go after death; a bad person's record of deeds
+- id: silm
+  category: general
+  sort: silm
+  term: silm
+  description: peace; submission
+- id: silsila
+  category: general
+  sort: silsila
+  term: silsila
+  description: chain of pirs in a spiritual lineage
+- id: sirat_al_mustaqim
+  category: general
+  sort: siratalmustaqim
+  term: sirat al mustaqim, siratin (-un, -an) mustaqim
+  description: straight path; confirmed and sure path
+- id: sirr
+  category: general
+  sort: sirr
+  term: sirr
+  description: secret; hidden
+- id: sirr_al_muhammad
+  category: general
+  sort: sirrimuhammad
+  term: Sirr-i Muhammad
+  description: Secret of Muhammad; haqiqa
+- id: sirr_al_asrar
+  category: general
+  sort: sirrulasrar
+  term: sirr ul-asrar
+  description: secret of secrets; akhfa
+- id: subhanahu
+  category: general
+  sort: subhanahu
+  term: Subhanahu
+  description: “May He (Allah) be glorified”
+- id: subhan_allah
+  category: general
+  sort: subhanallah
+  term: Subhan Allah
+  description: “Exalted is Allah”; “Glorified Be Allah”
+- id: subhana_rabbi_al_ala
+  category: general
+  sort: subhanarabbialala
+  term: Subhana Rabbi Al 'Ala
+  description: “Glory to my Lord The Most High”
+- id: sudur
+  category: general
+  sort: sudur
+  term: sudur
+  description: plural of sadr
+- id: sufaha
+  category: general
+  sort: sufaha
+  term: sufaha
+  description: shallow-minded people
+- id: sufi
+  category: general
+  sort: sufi
+  term: Sufi
+  description: lit., wearer of wool, one who has entered an order as a novice
+- id: sufism
+  category: general
+  sort: sufism
+  term: Sufism
+  description: a process of attaining closeness to the Creator through love, which is attained by purification of the nafs; tasawwuf
+- id: sujud
+  category: general
+  sort: sujud
+  term: sujud
+  description: the act of prostration
+- id: sulaiman
+  category: general
+  sort: sulaiman
+  term: Sulaiman
+  description: Solomon, Prophet
+- id: sultan
+  category: general
+  sort: sultan
+  term: sultan
+  description: king
+- id: suluk
+  category: general
+  sort: suluk
+  term: suluk
+  description: journey; the life-path of a spiritual seeker
+- id: sunna
+  category: general
+  sort: sunna
+  term: sunna
+  description: the observed behavior of Prophet Muhammad (pbuh)
+- id: sura
+  category: general
+  sort: sura
+  term: sura
+  description: chapter
+- id: tabaqa
+  category: general
+  sort: tabaqa
+  term: tabaqa
+  description: layer
+- id: tabudu
+  category: general
+  sort: tabudu
+  term: Ta'budu, U'budu
+  description: “Connect to, be devoted to and love”
+- id: tabut
+  category: general
+  sort: tabut
+  term: tabut
+  description: ark; wooden box; chest
+- id: tadbir
+  category: general
+  sort: tadbir
+  term: tadbir
+  description: planning; deliberation
+- id: tafakkarun
+  category: general
+  sort: tafakkarun
+  term: tafakkarun
+  description: those who contemplate, meditate and think
+- id: tafakkur
+  category: general
+  sort: tafakkur
+  term: tafakkur
+  description: reflection; contemplation
+- id: tafdila
+  category: general
+  sort: tafdila
+  term: tafdila
+  description: grace
+- id: tafsir
+  category: general
+  sort: tafsir
+  term: tafsir
+  description: scholarly interpretation; explanation
+- id: taghut
+  category: general
+  sort: taghut
+  term: taghut
+  description: false deities; false objects of worship; idols; seducers
+- id: tahajjud
+  category: general
+  sort: tahajjud
+  term: tahajjud
+  description: special prayer during the night
+- id: talaaq
+  category: general
+  sort: talaaq
+  term: talaaq
+  description: meeting; joining
+- id: talaq
+  category: general
+  sort: talaq
+  term: talaq
+  description: divorce
+- id: talut
+  category: general
+  sort: talut
+  term: Talut
+  description: Saul, Prophet
+- id: taqdir
+  category: general
+  sort: taqdir
+  term: taqdir
+  description: outcome; destined decree
+- id: taqiyya
+  category: general
+  sort: taqiyya
+  term: taqiyya
+  description: hiding or obfuscating one's belief in the face of persecution
+- id: taqwa
+  category: general
+  sort: taqwa
+  term: taqwa
+  description: self-vigilance; following the guidelines of Allah; watching over one's deeds to conform with Allah's rights and wrongs; devotion
+- id: tara
+  category: general
+  sort: tara
+  term: tara
+  description: think; observe; pay attention
+- id: tariq
+  category: general
+  sort: tariq
+  term: Tariq
+  description: Morning Star
+- id: tariqa
+  category: general
+  sort: tariqa
+  term: tariqa
+  description: path; road; Sufi order; the path to Allah through purification and direct experience
+- id: tasarruf
+  category: general
+  sort: tasarruf
+  term: tasarruf
+  description: Allah's executive power
+- id: tasawwuf
+  category: general
+  sort: tasawwuf
+  term: tasawwuf
+  description: the system of spiritual cleansing known in the West as Sufism
+- id: tasbih
+  category: general
+  sort: tasbih
+  term: tasbih
+  description: glorification; elevation; praise; chanting in glorification; repeating the names of Allah with the help of prayer beads; prayer beads; rosary; continuous glorification; repeated glorification
+- id: taslim
+  category: general
+  sort: taslim
+  term: taslim
+  description: surrender
+- id: tasnim
+  category: general
+  sort: tasnim
+  term: Tasnim
+  description: a spring in Paradise
+- id: tattaqun
+  category: general
+  sort: tattaqun
+  term: tattaqun
+  description: observe your duty to Allah
+- id: tawaaf
+  category: general
+  sort: tawaaf
+  term: tawaaf
+  description: circumambulation around the Ka'aba, especially during formal pilgrimage
+- id: tawakkul
+  category: general
+  sort: tawakkul
+  term: tawakkul
+  description: putting trust in Allah; referring one's affairs to Allah
+- id: tawba
+  category: general
+  sort: tawba
+  term: tawba
+  description: repentance
+- id: tawil
+  category: general
+  sort: tawil
+  term: ta'wil
+  description: deep understanding/interpretation of Quranic passages
+- id: tawwab
+  category: general
+  sort: tawwab
+  term: tawwab
+  description: accepter of repentance
+- id: tayammum
+  category: general
+  sort: tayammum
+  term: tayammum
+  description: rubbing the face and hands with clean earth, dust or sand in lieu of performing wudu, when water is not available
+- id: tayyib
+  category: general
+  sort: tayyib
+  term: tayyib
+  description: wholesome; good; nourishing
+- id: tazkiyyah
+  category: general
+  sort: tazkiyyah
+  term: tazkiyyah
+  description: purification; developing good manners that bring one closer to Allah
+- id: thamud
+  category: general
+  sort: thamud
+  term: Thamud
+  description: community to whom Prophet Saleh was sent
+- id: thawaab
+  category: general
+  sort: thawaab
+  term: thawaab
+  description: consequence; compensation
+- id: tilawa
+  category: general
+  sort: tilawa
+  term: tilawa
+  description: loud reading; reciting; chanting
+- id: tubba
+  category: general
+  sort: tubba
+  term: Tubba'
+  description: place in Yemen
+- id: tuwa
+  category: general
+  sort: tuwa
+  term: Tuwa
+  description: holy valley where Allah spoke to Musa
+- id: ulama
+  category: general
+  sort: ulama
+  term: '`ulama'
+  description: scholars; scientists
+- id: ulul_albab
+  category: general
+  sort: ululalbab
+  term: ulul albab
+  description: the people of understanding and mature discernment; the people of zikr; the people of reasoning; those who follow and contemplate Allah's reminders
+- id: ummah
+  category: general
+  sort: ummah
+  term: ummah
+  description: nation; community; group; people; followers
+- id: ummul_kitab
+  category: general
+  sort: ummulkitab
+  term: Ummul Kitab
+  description: the Universal Repository of All Knowledge; Total Knowledge; the Mother or Totality of Knowledge of our universe
+- id: ummul_qura
+  category: general
+  sort: ummulqura
+  term: ummul qura
+  description: capital city; Mecca
+- id: umrah
+  category: general
+  sort: umrah
+  term: '`umrah'
+  description: minor pilgrimage; visit to the Ka'aba in the months other than the formal Haj months of Shawwal, Dhul-Qadah and Dhul-Haj
+- id: uzair
+  category: general
+  sort: uzair
+  term: '`Uzair'
+  description: Ezra
+- id: uzkurullah
+  category: general
+  sort: uzkurullah
+  term: Uzkurullah
+  description: “Remember (do zikr of) Allah”
+- id: uzza
+  category: general
+  sort: uzza
+  term: '`Uzza, Al'
+  description: pagan Arab deity that was called “Daughter of Allah”
+- id: waad
+  category: general
+  sort: waad
+  term: wa'ad
+  description: promise; resolve to take a positive action; decree; given timeline; grace period
+- id: wahdah
+  category: general
+  sort: wahdah
+  term: wahdah, wahdat
+  description: unity; potential energy; no form; oneness
+- id: wahy
+  category: general
+  sort: wahy
+  term: wahy
+  description: divine revelation; inspiration; suggestion; indication
+- id: wajha
+  category: general
+  sort: wajha
+  term: wajha
+  description: countenance; essence; person; personal being; purpose; direction; attention; face; intention
+- id: wakil
+  category: general
+  sort: wakil
+  term: wakil
+  description: trustee; representative; guardian; advocate; keeper; defender; counselor; mentor
+- id: wali
+  category: general
+  sort: wali
+  term: wali
+  description: protecting friend; guardian; saint; intercessor; guardian ally
+- id: waliullah
+  category: general
+  sort: waliullah
+  term: waliullah
+  description: protecting friend of Allah; one who is assigned by Allah to help and protect; benefactor; intercessor
+- id: waliyyan_murshid
+  category: general
+  sort: waliyyanmurshid
+  term: waliyyan murshid
+  description: teacher who guides and protects
+- id: wasat
+  category: general
+  sort: wasat
+  term: wasat
+  description: intermediate; average; middleman; middle
+- id: wasi
+  category: general
+  sort: wasi
+  term: wasi
+  description: expansive; vast; limitless; abundant; all-encompassing; all-comprehending; infinite; generous
+- id: wasila
+  category: general
+  sort: wasila
+  term: wasila, wasita
+  description: means, e.g., whereby one attains nearness to Allah or through which Allah acts
+- id: wasilah
+  category: general
+  sort: wasilah
+  term: wasilah
+  description: one of several animals superstitiously distinguished by certain characteristics to be revered and dedicated to idols
+- id: watan_asli
+  category: general
+  sort: watanasli
+  term: Watan Asli
+  description: lit., Our Motherland; the face of Prophet Muhammad (pbuh)
+- id: wudu
+  category: general
+  sort: wudu
+  term: wudu
+  description: ritual ablution, or washing, performed before salat
+- id: wujuh
+  category: general
+  sort: wujuh
+  term: wujuh
+  description: plural of wajha
+- id: yabuduni
+  category: general
+  sort: yabuduni
+  term: Ya'buduni
+  description: “Connect to and know Me (Allah)”
+- id: yahud
+  category: general
+  sort: yahud
+  term: Yahud
+  description: Jew(s)
+- id: yahya
+  category: general
+  sort: yahya
+  term: Yahya
+  description: John the Baptist, Prophet
+- id: yaqilun
+  category: general
+  sort: yaqilun
+  term: ya'qilun
+  description: those who use their logic and seek the truth with science
+- id: yaqin
+  category: general
+  sort: yaqin
+  term: yaqin
+  description: certainty; sure knowledge
+- id: yaqub
+  category: general
+  sort: yaqub
+  term: Yaqub
+  description: Jacob, Prophet
+- id: yasifun
+  category: general
+  sort: yasifun
+  term: yasifun
+  description: those who attribute (something false to Allah)
+- id: yasmau
+  category: general
+  sort: yasmau
+  term: yasma'u
+  description: they hear; they pay attention
+- id: yasmaun
+  category: general
+  sort: yasmaun
+  term: yasma'un
+  description: those who pay attention and listen with the intention of learning and doing
+- id: yathrib
+  category: general
+  sort: yathrib
+  term: Yathrib
+  description: ancient name of the city of Medina
+- id: yawm
+  category: general
+  sort: yawm
+  term: yawm
+  description: day; stage; time period
+- id: yawm_al
+  category: general
+  sort: yawmal
+  term: Yawm, Al
+  description: The Day; today, i.e., at this time; now
+- id: yawm_al_akhira
+  category: general
+  sort: yawmalakhira
+  term: Yawm al Akhira
+  description: Time or Days of the Hereafter
+- id: yawm_al_din
+  category: general
+  sort: yawmaldin
+  term: Yawm al Din
+  description: Judgment Day
+- id: yawm_al_hisaab
+  category: general
+  sort: yawmalhisaab
+  term: Yawm al Hisaab
+  description: Day of Reckoning
+- id: yawm_al_qiyamah
+  category: general
+  sort: yawmalqiyamah
+  term: Yawm al Qiyamah
+  description: Day of Resurrection
+- id: yunfiqun
+  category: general
+  sort: yunfiqun
+  term: yunfiqun
+  description: they spend
+- id: yunus
+  category: general
+  sort: yunus
+  term: Yunus
+  description: Jonah, Prophet
+- id: yusabbih
+  category: general
+  sort: yusabbih
+  term: yusabbih
+  description: glorified; remembered with exaltation
+- id: yusuf
+  category: general
+  sort: yusuf
+  term: Yusuf
+  description: Joseph, Prophet
+- id: zabur
+  category: general
+  sort: zabur
+  term: Zabur
+  description: Psalms
+- id: zahir
+  category: general
+  sort: zahir
+  term: zahir
+  description: outer
+- id: zahiri
+  category: general
+  sort: zahiri
+  term: zahiri
+  description: outer, outwardly, physical
+- id: zakariya
+  category: general
+  sort: zakariya
+  term: Zakariya
+  description: Zachariah, Prophet
+- id: zakat
+  category: general
+  sort: zakat
+  term: zakat
+  description: poor-due; alms; charity
+- id: zakir
+  category: general
+  sort: zakir
+  term: zakir
+  description: one who does zikr of Allah
+- id: zakirin
+  category: general
+  sort: zakirin
+  term: zakirin
+  description: plural of zakir
+- id: zalim
+  category: general
+  sort: zalim
+  term: zalim
+  description: wrongdoer; oppressor; abuser of enlightenment; misguided one; one who knowingly chooses ignorance and misguidance; cruel; unjust
+- id: zalimin
+  category: general
+  sort: zalimin
+  term: zalimin, zalimun
+  description: plural of zalim
+- id: zanjabil
+  category: general
+  sort: zanjabil
+  term: zanjabil
+  description: ginger
+- id: zaqqum
+  category: general
+  sort: zaqqum
+  term: Zaqqum, Tree of
+  description: horrid tree in Hell
+- id: zat
+  category: general
+  sort: zat
+  term: zat
+  description: essence; person
+- id: zikr
+  category: general
+  sort: zikr
+  term: zikr
+  description: remembrance; recognition; repeated remembrance with contemplation; mentioning Allah's name repeatedly with intention, contemplation, glorification or supplication; reminder; the practice of repeating the names of Allah; litany of remembrance
+- id: zikran_kathira
+  category: general
+  sort: zikrankathira
+  term: zikran kathira
+  description: weighty, formalized zikr; abundant zikr
+- id: zikr_hakim
+  category: general
+  sort: zikrhakim
+  term: Zikr Hakim
+  description: Wise Reminder (The Quran)
+- id: zinat
+  category: general
+  sort: zinat
+  term: zinat
+  description: adornments; beauty
+- id: zubur
+  category: general
+  sort: zubur
+  term: zubur
+  description: scriptures; record
+- id: zuhr
+  category: general
+  sort: zuhr
+  term: zuhr
+  description: noon; salat around noontime
+- id: zulm
+  category: general
+  sort: zulm
+  term: zulm, zulumat
+  description: darkness; ignorance; misguidance; evil; wrongdoing; oppression; injustice; abuse
+- id: al_adl
+  category: asma
+  sort: aladl
+  term: Al Adl
+  description: The Just One
+- id: al_afu
+  category: asma
+  sort: alafu
+  term: Al Afu
+  description: The One Who Forgives
+- id: al_ahad
+  category: asma
+  sort: alahad
+  term: Al Ahad
+  description: The Unique One; The Formless One
+- id: al_akhir
+  category: asma
+  sort: alakhir
+  term: Al Akhir
+  description: The Latter
+- id: al_ali
+  category: asma
+  sort: alali
+  term: Al Ali
+  description: The High and Exalted One
+- id: al_alim
+  category: asma
+  sort: alalim
+  term: Al Alim
+  description: The All-Knowing One
+- id: al_awwal
+  category: asma
+  sort: alawwal
+  term: Al Awwal
+  description: The Former
+- id: al_azim
+  category: asma
+  sort: alazim
+  term: Al Azim
+  description: The Magnificent One; The One High in Might; The Tremendous One
+- id: al_aziz
+  category: asma
+  sort: alaziz
+  term: Al Aziz
+  description: The One Mighty with Benevolence; The Revered One; The Most Valued One; The Most Precious One
+- id: al_badi
+  category: asma
+  sort: albadi
+  term: Al Badi
+  description: The Originator
+- id: al_baith
+  category: asma
+  sort: albaith
+  term: Al Ba'ith
+  description: The Resurrector
+- id: al_baqi
+  category: asma
+  sort: albaqi
+  term: Al Baqi
+  description: The One Who Remains
+- id: al_bari
+  category: asma
+  sort: albari
+  term: Al Bari
+  description: The Shaper
+- id: al_barr
+  category: asma
+  sort: albarr
+  term: Al Barr
+  description: The Source of Purity; The Source of All Goodness
+- id: al_basir
+  category: asma
+  sort: albasir
+  term: Al Basir
+  description: The Seer
+- id: al_basit
+  category: asma
+  sort: albasit
+  term: Al Basit
+  description: The Expander
+- id: al_batin
+  category: asma
+  sort: albatin
+  term: Al Batin
+  description: The Inner
+- id: al_dafi
+  category: asma
+  sort: aldafi
+  term: Al Dafi
+  description: The Repeller
+- id: al_darr
+  category: asma
+  sort: aldarr
+  term: Al Darr
+  description: The Creator of the Harmful
+- id: al_fadl
+  category: asma
+  sort: alfadl
+  term: Al Fadl
+  description: The Bountiful One
+- id: al_fattah
+  category: asma
+  sort: alfattah
+  term: Al Fattah
+  description: The Opener
+- id: al_ghaffar
+  category: asma
+  sort: alghaffar
+  term: Al Ghaffar
+  description: The Oft-Absolving One
+- id: al_ghafur
+  category: asma
+  sort: alghafur
+  term: Al Ghafur
+  description: The Absolver of Sins; The Tolerant One
+- id: al_ghani
+  category: asma
+  sort: alghani
+  term: Al Ghani
+  description: The Self-Sufficient One; The One Who Needs No One
+- id: al_hadi
+  category: asma
+  sort: alhadi
+  term: Al Hadi
+  description: The Guide
+- id: al_hafiz
+  category: asma
+  sort: alhafiz
+  term: Al Hafiz
+  description: The Preserver and Protector
+- id: al_hakam
+  category: asma
+  sort: alhakam
+  term: Al Hakam
+  description: The Judge; The Mediator
+- id: al_hakim
+  category: asma
+  sort: alhakim
+  term: Al Hakim
+  description: The Wise One
+- id: al_halim
+  category: asma
+  sort: alhalim
+  term: Al Halim
+  description: The Soft and Gentle One Who Gives Ease
+- id: al_hamid
+  category: asma
+  sort: alhamid
+  term: Al Hamid
+  description: The One Who Deserves All Gratitude and Praise; The One Who Is Glorified
+- id: al_haqq
+  category: asma
+  sort: alhaqq
+  term: Al Haqq
+  description: The Truth; The Just One; The True One; The Reality
+- id: al_hasib
+  category: asma
+  sort: alhasib
+  term: Al Hasib
+  description: The One Who Keeps Accounts; and Measures of All Things; The Reckoner
+- id: al_hayy
+  category: asma
+  sort: alhayy
+  term: Al Hayy
+  description: The Alive One; The Living One
+- id: al_jabbar
+  category: asma
+  sort: aljabbar
+  term: Al Jabbar
+  description: The Compeller; The Magnetic Force
+- id: al_jalil
+  category: asma
+  sort: aljalil
+  term: Al Jalil
+  description: The Mighty One
+- id: al_jami
+  category: asma
+  sort: aljami
+  term: Al Jami
+  description: The Gatherer
+- id: al_kabir
+  category: asma
+  sort: alkabir
+  term: Al Kabir
+  description: The Incomparably Great One
+- id: al_kafi
+  category: asma
+  sort: alkafi
+  term: Al Kafi
+  description: The Sufficient One
+- id: al_karim
+  category: asma
+  sort: alkarim
+  term: Al Karim
+  description: The Generous One; The Honorable One
+- id: al_khabir
+  category: asma
+  sort: alkhabir
+  term: Al Khabir
+  description: The All-Aware One
+- id: al_khafid
+  category: asma
+  sort: alkhafid
+  term: Al Khafid
+  description: The Abaser
+- id: al_khaliq
+  category: asma
+  sort: alkhaliq
+  term: Al Khaliq
+  description: The Creator
+- id: al_latif
+  category: asma
+  sort: allatif
+  term: Al Latif
+  description: The Subtle and Kind One
+- id: al_mabud
+  category: asma
+  sort: almabud
+  term: Al Ma'bud
+  description: The One to Whom We Connect; in Devotion and Love
+- id: al_majid
+  category: asma
+  sort: almajid
+  term: Al Majid
+  description: The Glorious One; The Majestic One
+- id: al_malik
+  category: asma
+  sort: almalik
+  term: Al Malik
+  description: The Ruler; The King; The Owner of the Dominion
+- id: al_mani
+  category: asma
+  sort: almani
+  term: Al Mani
+  description: The Preventer
+- id: al_matin
+  category: asma
+  sort: almatin
+  term: Al Matin
+  description: The Enduring One
+- id: al_muakhkhir
+  category: asma
+  sort: almuakhkhir
+  term: Al Mu'akhkhir
+  description: The One Who Puts Behind; The One Who Delays
+- id: al_mubdi
+  category: asma
+  sort: almubdi
+  term: Al Mubdi
+  description: The Originator
+- id: al_mudhill
+  category: asma
+  sort: almudhill
+  term: Al Mudhill
+  description: The One Who Lowers in Esteem; The One Who Abases; The Downgrader; The Demoter
+- id: al_mughni
+  category: asma
+  sort: almughni
+  term: Al Mughni
+  description: The Enricher
+- id: al_muhaymin
+  category: asma
+  sort: almuhaymin
+  term: Al Muhaymin
+  description: The Protector; The Guardian; The Giver of Security
+- id: al_muhit
+  category: asma
+  sort: almuhit
+  term: Al Muhit
+  description: The One Who Encompasses All
+- id: al_muhsi
+  category: asma
+  sort: almuhsi
+  term: Al Muhsi
+  description: The Reckoner; The Appraiser
+- id: al_muhyi
+  category: asma
+  sort: almuhyi
+  term: Al Muhyi
+  description: The One Who Gives Life; The Reviver
+- id: al_muid
+  category: asma
+  sort: almuid
+  term: Al Mu'id
+  description: The Restorer
+- id: al_muizz
+  category: asma
+  sort: almuizz
+  term: Al Mu'izz
+  description: The One Who Raises in Esteem; The Bestower of Honor; The Upgrader
+- id: al_mujib
+  category: asma
+  sort: almujib
+  term: Al Mujib
+  description: The Responsive One
+- id: al_mumin
+  category: asma
+  sort: almumin
+  term: Al Mu'min
+  description: The Source of Certainty
+- id: al_mumit
+  category: asma
+  sort: almumit
+  term: Al Mumit
+  description: The Giver of Death
+- id: al_muntaqim
+  category: asma
+  sort: almuntaqim
+  term: Al Muntaqim
+  description: The Avenger
+- id: al_muqaddim
+  category: asma
+  sort: almuqaddim
+  term: Al Muqaddim
+  description: The One Who Puts Ahead; The Promoter
+- id: al_muqit
+  category: asma
+  sort: almuqit
+  term: Al Muqit
+  description: The Caretaker; The Maintainer; The Caring One
+- id: al_muqsit
+  category: asma
+  sort: almuqsit
+  term: Al Muqsit
+  description: The Equitable One
+- id: al_muqtadir
+  category: asma
+  sort: almuqtadir
+  term: Al Muqtadir
+  description: The Source of All Power
+- id: al_musawwir
+  category: asma
+  sort: almusawwir
+  term: Al Musawwir
+  description: The Detailer
+- id: al_mutaali
+  category: asma
+  sort: almutaali
+  term: Al Muta'ali
+  description: The Most Highly Exalted One
+- id: al_mutakabbir
+  category: asma
+  sort: almutakabbir
+  term: Al Mutakabbir
+  description: The Possessor of Greatness
+- id: al_nafi
+  category: asma
+  sort: alnafi
+  term: Al Nafi
+  description: The Creator of Good
+- id: al_nasir
+  category: asma
+  sort: alnasir
+  term: Al Nasir
+  description: The Helper
+- id: al_nur
+  category: asma
+  sort: alnur
+  term: Al Nur
+  description: The Light; The Energy
+- id: al_qabid
+  category: asma
+  sort: alqabid
+  term: Al Qabid
+  description: The Constrictor
+- id: al_qadir
+  category: asma
+  sort: alqadir
+  term: Al Qadir
+  description: The One Who Is Able to Do All Things; The Doer of All Things
+- id: al_qahhar
+  category: asma
+  sort: alqahhar
+  term: Al Qahhar
+  description: The Overpowering One
+- id: al_qarib
+  category: asma
+  sort: alqarib
+  term: Al Qarib
+  description: The One Who Is Near; The One Who Is Connected; The One Who Is Related To All
+- id: al_qawi
+  category: asma
+  sort: alqawi
+  term: Al Qawi
+  description: The Strong One
+- id: al_qayyum
+  category: asma
+  sort: alqayyum
+  term: Al Qayyum
+  description: The Self-Existing One; The Eternal One; The Caretaker
+- id: al_quddus
+  category: asma
+  sort: alquddus
+  term: Al Quddus
+  description: The Holy One; The Sacred One
+- id: al_rab
+  category: asma
+  sort: alrab
+  term: Al Rab
+  description: The Lord; The Master
+- id: al_rafi
+  category: asma
+  sort: alrafi
+  term: Al Rafi
+  description: The Exalter
+- id: al_rahim
+  category: asma
+  sort: alrahim
+  term: Al Rahim
+  description: The Source of Mercy
+- id: al_rahman
+  category: asma
+  sort: alrahman
+  term: Al Rahman
+  description: The One Who Acts with Mercy; The Beneficent
+- id: al_raqib
+  category: asma
+  sort: alraqib
+  term: Al Raqib
+  description: The Vigilant Supervisor; The Monitor
+- id: al_rashid
+  category: asma
+  sort: alrashid
+  term: Al Rashid
+  description: The One Capable of Right Judgment; The Mature One
+- id: al_rauf
+  category: asma
+  sort: alrauf
+  term: Al Ra'uf
+  description: The Clement One; The One Full of Compassion and Softness
+- id: al_razzaq
+  category: asma
+  sort: alrazzaq
+  term: Al Razzaq
+  description: The Provider; The Sustainer
+- id: al_sabur
+  category: asma
+  sort: alsabur
+  term: Al Sabur
+  description: The Patient One; The One Who Perseveres; The Steadfast One
+- id: al_salaam
+  category: asma
+  sort: alsalaam
+  term: Al Salaam
+  description: The Place and Source of Peace
+- id: al_samad
+  category: asma
+  sort: alsamad
+  term: Al Samad
+  description: The Administrator of All Manifestation; The Receiver of Requests; The One to Whom All Should Appeal
+- id: al_sami
+  category: asma
+  sort: alsami
+  term: Al Sami
+  description: The Hearer; The Listener
+- id: al_shahid
+  category: asma
+  sort: alshahid
+  term: Al Shahid
+  description: The Witness
+- id: al_shakur
+  category: asma
+  sort: alshakur
+  term: Al Shakur
+  description: The Source of Gratitude
+- id: al_tawwab
+  category: asma
+  sort: altawwab
+  term: Al Tawwab
+  description: The Accepter of Repentance; and Atonement
+- id: al_waali
+  category: asma
+  sort: alwaali
+  term: Al Waali
+  description: The Governor; The Administrator
+- id: al_wadud
+  category: asma
+  sort: alwadud
+  term: Al Wadud
+  description: The Loving One; The Source of Love
+- id: al_wahhab
+  category: asma
+  sort: alwahhab
+  term: Al Wahhab
+  description: The Bestower; The Giver
+- id: al_wahid
+  category: asma
+  sort: alwahid
+  term: Al Wahid
+  description: The One and Only
+- id: al_wajid
+  category: asma
+  sort: alwajid
+  term: Al Wajid
+  description: The One Who Forms
+- id: al_wakil
+  category: asma
+  sort: alwakil
+  term: Al Wakil
+  description: The Trustee; The Representative; The Guardian; The Counselor; The Mentor
+- id: al_wali
+  category: asma
+  sort: alwali
+  term: Al Wali
+  description: The Protecting Friend; Who Is Relied Upon; The Guardian; The Ally
+- id: al_warith
+  category: asma
+  sort: alwarith
+  term: Al Warith
+  description: The Inheritor
+- id: al_wasi
+  category: asma
+  sort: alwasi
+  term: Al Wasi
+  description: The Expansive One; The One Who Is Limitless in Every Way
+- id: al_zahir
+  category: asma
+  sort: alzahir
+  term: Al Zahir
+  description: The Outer
+- id: dhul_jalali_wal_ikram
+  category: asma
+  sort: dhuljalaliwalikram
+  term: Dhul Jalali Wal Ikram
+  description: Owner of Majesty and Generosity
+- id: hu
+  category: asma
+  sort: hu
+  term: Hu
+  description: Genderless third person pronoun; that refers to Allah; He/She/It
+- id: malik_al_mulk
+  category: asma
+  sort: malikalmulk
+  term: Malik Al Mulk
+  description: Owner of All Power and Sovereignty
+- id: ahsanul_khaliqin
+  category: desc
+  sort: ahsanulkhaliqin
+  term: Ahsanul Khaliqin
+  description: The One Who Creates in The Best Way
+- id: al_ghani_dhu_al_rahma
+  category: desc
+  sort: alghanidhualrahma
+  term: Al Ghani Dhu Al Rahma
+  description: The Self-Sufficient One Who Is Full of Mercy
+- id: alim_al_ghayb_wa_al_shahada
+  category: desc
+  sort: alimalghaybwaalshahada
+  term: Alim Al Ghayb Wa Al Shahada
+  description: Knower of The Hidden and The Apparent
+- id: arhamul_rahimin
+  category: desc
+  sort: arhamulrahimin
+  term: Arhamul Rahimin
+  description: Source of Mercy and Kindness of all who show mercy and kindness
+- id: asraul_hasibin
+  category: desc
+  sort: asraulhasibin
+  term: Asra'ul Hasibin
+  description: Swiftest of Reckoners
+- id: azizin_dhi_intiqaam
+  category: desc
+  sort: azizindhiintiqaam
+  term: Azizin Dhi Intiqaam
+  description: Mighty Establisher of Consequences
+- id: azizin_muqtadir
+  category: desc
+  sort: azizinmuqtadir
+  term: Azizin Muqtadir
+  description: One High and Mighty Who Is Able to Do All Things
+- id: basirun_bil_ibad
+  category: desc
+  sort: basirunbilibad
+  term: Basirun Bil `Ibad
+  description: Watchful Over His Devotees
+- id: dhi_intiqaam
+  category: desc
+  sort: dhiintiqaam
+  term: Dhi Intiqaam, Dhun-Tiqaam
+  description: Establisher of Consequences of the Law of Action and Reaction
+- id: dhul_fadlul_azim
+  category: desc
+  sort: dhulfadlulazim
+  term: Dhul Fadlul `Azim
+  description: Possessor of Great Bounty
+- id: dhul_quwwati_al_matin
+  category: desc
+  sort: dhulquwwatialmatin
+  term: Dhul Quwwati Al Matin
+  description: Possessor of Power and Endurance
+- id: dhu_rahmatin_wasiatin
+  category: desc
+  sort: dhurahmatinwasiatin
+  term: Dhu Rahmatin Wasi'atin
+  description: (Lord of) All-Embracing Mercy
+- id: ilahun_wahid
+  category: desc
+  sort: ilahunwahid
+  term: Ilahun Wahid
+  description: One and Only Highest Power
+- id: khayrul_faasilin
+  category: desc
+  sort: khayrulfaasilin
+  term: Khayrul Faasilin
+  description: The One Who Decides in the Best Way
+- id: khayrul_fatihin
+  category: desc
+  sort: khayrulfatihin
+  term: Khayrul Fatihin
+  description: The One Who Passes Judgment in the Best Way
+- id: khayrul_ghafirin
+  category: desc
+  sort: khayrulghafirin
+  term: Khayrul Ghafirin
+  description: The One Who Absolves Sins in the Best Way
+- id: khayrun_hafiza
+  category: desc
+  sort: khayrunhafiza
+  term: Khayrun Hafiza
+  description: The One Who Protects (Preserves, Safeguards) in the Best Way
+- id: khayrul_hakimin
+  category: desc
+  sort: khayrulhakimin
+  term: Khayrul Hakimin
+  description: The One Who Judges in the Best Way
+- id: khayrul_makirin
+  category: desc
+  sort: khayrulmakirin
+  term: Khayrul Makirin
+  description: The One Who Plans in the Best Way
+- id: khayrul_munzilin
+  category: desc
+  sort: khayrulmunzilin
+  term: Khayrul Munzilin
+  description: The One Who Brings to Land (or Destination) in the Best Way; The One Who Sends Down from Above in the Best Way
+- id: khayrul_nasirin
+  category: desc
+  sort: khayrulnasirin
+  term: Khayrul Nasirin
+  description: The One Who Grants Help in the Best Way
+- id: khayrul_rahimin
+  category: desc
+  sort: khayrulrahimin
+  term: Khayrul Rahimin
+  description: The One Who Bestows Mercy and Kindness in the Best Way
+- id: khayrul_raziqin
+  category: desc
+  sort: khayrulraziqin
+  term: Khayrul Raziqin
+  description: The One Who Provides in the Best Way
+- id: khayrul_warithin
+  category: desc
+  sort: khayrulwarithin
+  term: Khayrul Warithin
+  description: The One Who Inherits in the Best Way
+- id: malikin_muqtadir
+  category: desc
+  sort: malikinmuqtadir
+  term: Malikin Muqtadir
+  description: Mighty King
+- id: maliki_yawm_al_din
+  category: desc
+  sort: malikiyawmaldin
+  term: Maliki Yawm Al Din
+  description: Master (Owner, King) of Judgment Day
+- id: muhyi_al_mawta
+  category: desc
+  sort: muhyialmawta
+  term: Muhyi Al Mawta
+  description: Reviver of the Dead
+- id: qawiyyun_shadidul_iqab
+  category: desc
+  sort: qawiyyunshadiduliqab
+  term: Qawiyyun Shadid'ul `Iqab
+  description: Strong and Severe in Punishment
+- id: rabbil_alamin
+  category: desc
+  sort: rabbilalamin
+  term: Rabbil `Alamin
+  description: Lord (Sustainer, Cherisher) of the Worlds (Realms, Generations); Lord of All Creation
+- id: raufun_bil_ibad
+  category: desc
+  sort: raufunbilibad
+  term: Ra'ufun Bil `Ibad
+  description: Soft and Kind to His Devotees
+- id: sariul_hisaab
+  category: desc
+  sort: sariulhisaab
+  term: Sari'ul Hisaab
+  description: Swift (Quick) in Reckoning
+- id: sariul_iqab
+  category: desc
+  sort: sariuliqab
+  term: Sari'ul `Iqab
+  description: Swift in Following Up (with Consequences, Punishment)
+- id: shadidul_iqab
+  category: desc
+  sort: shadiduliqab
+  term: Shadid'ul `Iqab
+  description: Severe in Retribution; Stern in Punishment
+- id: waliyyul_muminin
+  category: desc
+  sort: waliyyulmuminin
+  term: Waliyyul Mu'minin
+  description: Guardian, Protecting Friend of the Believers

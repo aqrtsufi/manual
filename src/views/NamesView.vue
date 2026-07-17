@@ -37,6 +37,13 @@ function syncFromRoute() {
 }
 
 function onPointerDown(event: PointerEvent) {
+  const target = event.target as HTMLElement
+
+  // Do not capture clicks intended for navigation controls.
+  if (target.closest('button, input, a')) {
+    return
+  }
+
   pointerStartX.value = event.clientX
   pointerStartY.value = event.clientY
   ;(event.currentTarget as HTMLElement).setPointerCapture?.(event.pointerId)

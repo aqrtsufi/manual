@@ -118,6 +118,18 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .eyebrow { display: inline-block; color: var(--gold); text-transform: uppercase; letter-spacing: .2em; font-size: .69rem; font-weight: 850; }
 .page-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 34px; }
 .page-heading h1 { margin: 7px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.2rem, 5vw, 4.8rem); font-weight: 500; line-height: .98; letter-spacing: -.035em; }
+.glossary-source {
+  max-width: 720px;
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.glossary-source cite {
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
 .ornament-heading { position: relative; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
 .ornament-heading::after { content: ""; position: absolute; bottom: -5px; left: 0; width: 90px; height: 9px; background: repeating-linear-gradient(90deg, var(--gold) 0 4px, transparent 4px 9px); }
 .heading-actions { display: flex; gap: 9px; }

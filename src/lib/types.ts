@@ -69,15 +69,32 @@ export interface VideoEntry {
   locale: LocaleCode
 }
 
-export type WeeklyKind = 'summary' | 'assignment' | 'contemplation'
+export type WeeklyKind = 'reading' | 'contemplation' | 'assignment'
+
+export interface WeeklySection {
+  raw: string
+  html: string
+}
 
 export interface WeeklyEntry {
   locale: LocaleCode
   week: string
-  kind: WeeklyKind
-  raw: string
-  html: string
+  starts: string
+  title: string
+  published: boolean
+  sections: Record<WeeklyKind, WeeklySection>
 }
+
+export interface WeeklyFile {
+  week: string
+  starts: string
+  title: string
+  published?: boolean
+  reading: string
+  contemplation: string
+  assignment: string
+}
+
 
 export interface ActivityEntry {
   week: string

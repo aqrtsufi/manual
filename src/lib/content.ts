@@ -11,6 +11,8 @@ import type {
   LocaleCode,
   ManualPage,
   ManualTocEntry,
+  QuoteEntry,
+  QuranVerseFile,
   QuranVerse,
   VideoEntry,
   WeeklyEntry,
@@ -47,7 +49,7 @@ const glossaryModules = import.meta.glob('../../content/*/glossary/*.yml', {
   import: 'default'
 }) as Record<string, string>
 
-const quranModules = import.meta.glob('../../content/*/quran/*.yml', {
+const quranModules = import.meta.glob('../../content/*/quran/verse.yml', {
   eager: true,
   query: '?raw',
   import: 'default'
@@ -125,16 +127,59 @@ export const manualPages: ManualPage[] = Object.entries(manualPageModules)
   .filter((page) => page.page > 0)
   .sort((a, b) => a.locale.localeCompare(b.locale) || a.page - b.page)
 
-export const quotesByLocale = new Map<LocaleCode, string[]>()
+function quoteSourceFile(path: string): string {
+  return path.split('/').pop()?.replace(/\.txt$/i, '') || 'quotes'
+}
+
+function parseQuoteFile(path: string, raw: string): QuoteEntry[] {
+  const locale = localeFromPath(path)
+  const normalized = raw.replace(/\r\n?/g, '\n').trim()
+  if (!normalized) return []
+
+  const lines = normalized.split('\n')
+  const authorLine = lines.findIndex((line) => {
+    const value = line.trim()
+    return Boolean(value) && !value.startsWith('#')
+  })
+
+  if (authorLine < 0) return []
+
+  const author = lines[authorLine].trim()
+  const sourceFile = quoteSourceFile(path)
+  const body = lines.slice(authorLine + 1).join('\n').trim()
+  if (!body) return []
+
+  return body
+    .split(/\n\s*\n+/)
+    .map((block) => block
+      .split('\n')
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .join(' ')
+      .trim())
+    .filter(Boolean)
+    .map((text, index) => ({
+      id: `${locale}-${sourceFile}-${index + 1}`,
+      locale,
+      author,
+      text,
+      sourceFile
+    }))
+}
+
+export const quotesByLocale = new Map<LocaleCode, QuoteEntry[]>()
+
 for (const [path, raw] of Object.entries(quoteModules)) {
   const locale = localeFromPath(path)
-  const value = raw.trim()
-  if (!value) continue
   const list = quotesByLocale.get(locale) || []
-  list.push(value)
+  list.push(...parseQuoteFile(path, raw))
   quotesByLocale.set(locale, list)
 }
-for (const list of quotesByLocale.values()) list.sort()
+
+for (const list of quotesByLocale.values()) {
+  list.sort((a, b) => a.id.localeCompare(b.id))
+}
+
 
 export const divineNamesByLocale = new Map<LocaleCode, DivineName[]>()
 export const divineNamesSourceByLocale = new Map<LocaleCode, Pick<DivineNamesCollection, 'source' | 'sourceUrl'>>()
@@ -169,12 +214,19 @@ glossaryEntries.sort((a, b) =>
 )
 
 export const quranByLocale = new Map<LocaleCode, QuranVerse[]>()
+export const quranTranslatorByLocale = new Map<LocaleCode, string>()
+
 for (const [path, raw] of Object.entries(quranModules)) {
   const locale = localeFromPath(path)
-  const list = quranByLocale.get(locale) || []
-  list.push(...parseYamlArray<QuranVerse>(raw).filter((entry) => entry.featured !== false))
-  quranByLocale.set(locale, list)
+  const parsed = loadYaml(raw) as Partial<QuranVerseFile> | undefined
+  const verses = Array.isArray(parsed?.verses)
+    ? parsed.verses.filter((entry) => entry.featured !== false)
+    : []
+
+  quranByLocale.set(locale, verses)
+  quranTranslatorByLocale.set(locale, String(parsed?.translator || '').trim())
 }
+
 
 export const videos: VideoEntry[] = []
 for (const [path, raw] of Object.entries(videoModules)) {

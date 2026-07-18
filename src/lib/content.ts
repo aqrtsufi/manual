@@ -34,6 +34,12 @@ const tocModules = import.meta.glob('../../content/*/manual/toc.yml', {
   import: 'default'
 }) as Record<string, string>
 
+const manualSectionModules = import.meta.glob('../../content/*/manual/sections.yml', {
+  eager: true,
+  query: '?raw',
+  import: 'default'
+}) as Record<string, string>
+
 const quoteModules = import.meta.glob('../../content/*/quotes/*.txt', {
   eager: true,
   query: '?raw',
@@ -129,6 +135,51 @@ export const manualPages: ManualPage[] = Object.entries(manualPageModules)
   })
   .filter((page) => page.page > 0)
   .sort((a, b) => a.locale.localeCompare(b.locale) || a.page - b.page)
+
+function textForPages(locale: LocaleCode, pages: number[]): string {
+  return pages
+    .map((pageNumber) => manualPages.find((page) =>
+      page.locale === locale && page.page === pageNumber
+    )?.text || '')
+    .filter(Boolean)
+    .join('\n\n')
+}
+
+function extractAnchoredText(source: string, start: string, end: string): string {
+  const startIndex = source.indexOf(start)
+  if (startIndex < 0) return ''
+
+  const fromStart = source.slice(startIndex)
+  const endIndex = fromStart.indexOf(end)
+  if (endIndex < 0) return ''
+
+  return fromStart.slice(0, endIndex + end.length).trim()
+}
+
+export const manualSections: ManualSection[] = []
+
+for (const [path, raw] of Object.entries(manualSectionModules)) {
+  const locale = localeFromPath(path)
+  const parsed = loadYaml(raw) as Partial<ManualSectionsFile> | undefined
+  const chapters = Array.isArray(parsed?.chapters) ? parsed.chapters : []
+
+  for (const chapter of chapters) {
+    for (const section of chapter.sections || []) {
+      const source = textForPages(locale, section.sourcePages || [])
+      const text = extractAnchoredText(source, section.start, section.end)
+
+      manualSections.push({
+        id: section.id,
+        chapterId: chapter.id,
+        chapterTitle: chapter.title,
+        title: section.title,
+        sourcePages: section.sourcePages || [],
+        text
+      })
+    }
+  }
+}
+
 
 function quoteSourceFile(path: string): string {
   return path.split('/').pop()?.replace(/\.txt$/i, '') || 'quotes'

@@ -8,7 +8,7 @@ import {
   quranTranslatorByLocale,
   quotesByLocale
 } from '../lib/content'
-import { eventOccursToday, formatGregorian, getDiyanetDate, localEventTime } from '../lib/dates'
+import { dateInTimeZone, eventOccursToday, formatGregorian, getDiyanetDate, localEventTime } from '../lib/dates'
 import { dailyCycleIndex } from '../lib/daily'
 import { useTimeZone } from '../composables/useTimeZone'
 import OrbitClock from '../components/OrbitClock.vue'
@@ -17,8 +17,15 @@ import OrbitClock from '../components/OrbitClock.vue'
 const { activeLocale } = useLocale()
 const { selectedTimeZone } = useTimeZone()
 const now = ref(new Date())
-const timer = window.setInterval(() => { now.value = new Date() }, 60_000)
+const timer = window.setInterval(() => { now.value = new Date() }, 60_000) 
 onBeforeUnmount(() => window.clearInterval(timer))
+
+  const selectedCalendarDate = computed(() =>
+  dateInTimeZone(
+    now.value,
+    selectedTimeZone.value
+  )
+)
 
 const quote = computed(() => {
   const list = quotesByLocale.get(activeLocale.value) || []
@@ -51,17 +58,20 @@ const quranTranslator = computed(() =>
 )
 
 
-const gregorian = computed(() => formatGregorian(now.value))
-const diyanet = computed(() => getDiyanetDate(diyanetCalendar, now.value))
+const gregorian = computed(() => formatGregorian(selectedCalendarDate.value))
+const diyanet = computed(() => getDiyanetDate(diyanetCalendar, selectedCalendarDate.value))
 const todayEvents = computed(() => events
-  .filter((entry) => eventOccursToday(entry, diyanet.value.value, now.value))
-  .map((entry) => ({ ...entry, localTime: localEventTime(entry, now.value) })))
+  .filter((entry) => eventOccursToday(entry, diyanet.value.value, selectedCalendarDate.value))
+  .map((entry) => ({ ...entry, localTime: localEventTime(entry, selectedCalendarDate.value) })))
 const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 </script>
 
 <template>
   <div class="home-page">
-    <OrbitClock />
+    <OrbitClock
++      :gregorian-date="gregorian"
++      :islamic-date="diyanet.value"
++    />
 
     <section v-if="quote" class="illuminated-panel quote-panel">
       <span class="panel-number">01</span>

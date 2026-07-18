@@ -14,21 +14,41 @@ import { useTimeZone } from '../composables/useTimeZone'
 
   
 const { activeLocale } = useLocale()
+const { selectedTimeZone } = useTimeZone()
 const now = ref(new Date())
 const timer = window.setInterval(() => { now.value = new Date() }, 60_000)
 onBeforeUnmount(() => window.clearInterval(timer))
 
 const quote = computed(() => {
   const list = quotesByLocale.get(activeLocale.value) || []
-  const index = deterministicIndex(list.length, now.value)
-  return index >= 0 ? list[index] : ''
+  const index = dailyCycleIndex(
+    list.length,
+    now.value,
+    selectedTimeZone.value,
+    `quote:${activeLocale.value}`
+  )
+
+  return index >= 0 ? list[index] : null
 })
 
 const verse = computed(() => {
   const list = quranByLocale.get(activeLocale.value) || []
-  const index = deterministicIndex(list.length, now.value, 17)
+  const index = dailyCycleIndex(
+    list.length,
+    now.value,
+    selectedTimeZone.value,
+    `quran:${activeLocale.value}`
+  )
+
   return index >= 0 ? list[index] : null
 })
+
+const quranTranslator = computed(() =>
+  quranTranslatorByLocale.get(activeLocale.value) ||
+  quranTranslatorByLocale.get('en') ||
+  ''
+)
+
 
 const gregorian = computed(() => formatGregorian(now.value))
 const diyanet = computed(() => getDiyanetDate(diyanetCalendar, now.value))
@@ -53,13 +73,17 @@ const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
     <section v-if="quote" class="illuminated-panel quote-panel">
       <span class="panel-number">01</span>
-      <blockquote>{{ quote }}</blockquote>
+      <blockquote>{{ quote.text }}</blockquote>
+      <cite class="quote-author">{{ quote.author }}</cite>
     </section>
 
     <section v-if="verse" class="illuminated-panel verse-panel">
       <span class="panel-number">02</span>
       <blockquote>{{ verse.text }}</blockquote>
-      <cite>{{ verse.reference }}</cite>
+      <cite class="verse-source">
+        <strong>{{ verse.sura }}:{{ verse.verse }}</strong>
+        <span v-if="quranTranslator">Translated by {{ quranTranslator }}</span>
+      </cite>
     </section>
 
     <section v-if="todayEvents.length" class="event-band">

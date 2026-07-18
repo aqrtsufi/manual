@@ -69,9 +69,9 @@ const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 <template>
   <div class="home-page">
     <OrbitClock
-+      :gregorian-date="gregorian"
-+      :islamic-date="diyanet.value"
-+    />
+      :gregorian-date="gregorian"
+      :islamic-date="diyanet.value"
+    />
 
     <section v-if="quote" class="illuminated-panel quote-panel">
       <span class="panel-number">01</span>

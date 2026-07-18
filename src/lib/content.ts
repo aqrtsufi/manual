@@ -10,6 +10,8 @@ import type {
   GlossaryEntry,
   LocaleCode,
   ManualPage,
+  ManualSection,
+  ManualSectionsFile,
   ManualTocEntry,
   QuoteEntry,
   QuranVerseFile,

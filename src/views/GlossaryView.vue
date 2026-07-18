@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import { useLocale } from '../composables/useLocale'
 import { glossaryEntries } from '../lib/content'
 import type { GlossaryCategory } from '../lib/types'
@@ -7,6 +8,8 @@ import type { GlossaryCategory } from '../lib/types'
 const { activeLocale } = useLocale()
 const activeCategory = ref<GlossaryCategory>('general')
 const query = ref('')
+const route = useRoute()
+const highlightedEntry = ref('')
 
 const categories: Array<{ id: GlossaryCategory; label: string }> = [
   { id: 'general', label: 'General Glossary' },
@@ -27,6 +30,35 @@ const visibleEntries = computed(() => {
       .includes(search)
   })
 })
+
+async function revealRequestedEntry() {
+  const category = String(route.query.category || '')
+  const entry = String(route.query.entry || '')
+
+  if (category === 'general' || category === 'asma' || category === 'desc') {
+    activeCategory.value = category
+  }
+
+  if (!entry) return
+
+  query.value = ''
+  highlightedEntry.value = entry
+  await nextTick()
+
+  document.getElementById(`glossary-${entry}`)?.scrollIntoView({
+    behavior: 'smooth',
+    block: 'center'
+  })
+
+  window.setTimeout(() => {
+    if (highlightedEntry.value === entry) highlightedEntry.value = ''
+  }, 3000)
+}
+
+watch(() => route.query, revealRequestedEntry, { deep: true })
+onMounted(revealRequestedEntry)
+
+  
 </script>
 
 <template>

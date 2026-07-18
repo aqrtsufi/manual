@@ -65,21 +65,34 @@ for (const locale of ['en', 'fr', 'de', 'es']) {
 
 for (const locale of ['en', 'fr', 'de', 'es']) {
   const quranDir = path.join(root, `content/${locale}/quran`)
-  if (!fs.existsSync(quranDir)) continue
-  for (const file of fs.readdirSync(quranDir).filter((name) => name.endsWith('.yml') || name.endsWith('.yaml'))) {
-    const raw = fs.readFileSync(path.join(quranDir, file), 'utf8')
-    const data = loadYaml(raw)
-    if (!Array.isArray(data)) continue
-    for (const entry of data) {
-      if (!entry || entry.featured === false) continue
-      const text = String(entry.text || '').trim()
-      if (!text) errors.push(`${locale}/${file}: featured Quran entry ${entry.id || '(no id)'} has no text.`)
-      const sentenceEnds = (text.match(/[.!?]+(?=\s|$)/g) || []).length
-      if (sentenceEnds > 1) {
-        errors.push(`${locale}/${file}: ${entry.id || '(no id)'} contains more than one sentence-ending mark.`)
+  if (fs.existsSync(quranDir)) {
+    const verseFile = path.join(quranDir, 'verse.yml')
+  
+    if (!fs.existsSync(verseFile)) {
+      errors.push(`${locale}: missing content/${locale}/quran/verse.yml.`)
+    } else {
+      const data = loadYaml(fs.readFileSync(verseFile, 'utf8'))
+      const translator = String(data?.translator || '').trim()
+      const verses = Array.isArray(data?.verses) ? data.verses : []
+  
+      if (!translator) errors.push(`${locale}/verse.yml: translator is missing.`)
+      if (!verses.length) errors.push(`${locale}/verse.yml: no Quran verses found.`)
+  
+      const ids = new Set()
+  
+      for (const entry of verses) {
+        const id = String(entry?.id || '').trim()
+        if (!id) errors.push(`${locale}/verse.yml: a Quran entry has no id.`)
+        if (ids.has(id)) errors.push(`${locale}/verse.yml: duplicate Quran id ${id}.`)
+        ids.add(id)
+  
+        if (!String(entry?.sura || '').trim()) errors.push(`${locale}/verse.yml: ${id || '(no id)'} has no sura name.`)
+        if (!String(entry?.verse || '').trim()) errors.push(`${locale}/verse.yml: ${id || '(no id)'} has no verse number.`)
+        if (!String(entry?.text || '').trim()) errors.push(`${locale}/verse.yml: ${id || '(no id)'} has no text.`)
       }
     }
   }
+
 
   const videoDir = path.join(root, `content/${locale}/videos`)
   if (!fs.existsSync(videoDir)) continue

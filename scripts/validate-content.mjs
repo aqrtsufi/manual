@@ -36,6 +36,34 @@ if (!fs.existsSync(namesFile)) {
 }
 
 for (const locale of ['en', 'fr', 'de', 'es']) {
+  const quotesDir = path.join(root, `content/${locale}/quotes`)
+  if (!fs.existsSync(quotesDir)) continue
+
+  for (const file of fs.readdirSync(quotesDir).filter((name) => name.endsWith('.txt'))) {
+    const raw = fs.readFileSync(path.join(quotesDir, file), 'utf8').replace(/\r\n?/g, '\n').trim()
+    if (!raw) {
+      errors.push(`${locale}/${file}: quote file is empty.`)
+      continue
+    }
+
+    const lines = raw.split('\n')
+    const authorLine = lines.findIndex((line) => line.trim() && !line.trim().startsWith('#'))
+    if (authorLine < 0) {
+      errors.push(`${locale}/${file}: missing author on the first non-empty line.`)
+      continue
+    }
+
+    const author = lines[authorLine].trim()
+    const body = lines.slice(authorLine + 1).join('\n').trim()
+    const quotes = body.split(/\n\s*\n+/).map((value) => value.trim()).filter(Boolean)
+
+    if (!author) errors.push(`${locale}/${file}: author is blank.`)
+    if (!quotes.length) errors.push(`${locale}/${file}: no quote blocks found after the author.`)
+  }
+}
+
+
+for (const locale of ['en', 'fr', 'de', 'es']) {
   const quranDir = path.join(root, `content/${locale}/quran`)
   if (!fs.existsSync(quranDir)) continue
   for (const file of fs.readdirSync(quranDir).filter((name) => name.endsWith('.yml') || name.endsWith('.yaml'))) {

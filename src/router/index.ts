@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ManualView from '../views/ManualView.vue'
 import ManualChapterView from '../views/ManualChapterView.vue'
+import ManualSectionView from '../views/ManualSectionView.vue'
 import ManualPageView from '../views/ManualPageView.vue'
 import NamesView from '../views/NamesView.vue'
 import GlossaryView from '../views/GlossaryView.vue'
@@ -27,6 +28,8 @@ export const router = createRouter({
       name: 'manual-chapter',
       component: ManualChapterView
     },
+
+    { path: '/manual/read/:section', name: 'manual-section', component: ManualSectionView },
 
     { path: '/manual/page/:page', name: 'manual-page', component: ManualPageView },
     { path: '/names', name: 'names', component: NamesView },

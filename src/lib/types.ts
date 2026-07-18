@@ -40,13 +40,27 @@ export interface GlossaryEntry {
   description: string
 }
 
+export interface QuoteEntry {
+  id: string
+  locale: LocaleCode
+  author: string
+  text: string
+  sourceFile: string
+}
 
 export interface QuranVerse {
   id: string
   text: string
-  reference: string
+  sura: string
+  verse: string
   featured?: boolean
 }
+
+export interface QuranVerseFile {
+  translator: string
+  verses: QuranVerse[]
+}
+
 
 export interface VideoEntry {
   id: string

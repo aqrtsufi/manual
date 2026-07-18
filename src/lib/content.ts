@@ -213,6 +213,10 @@ glossaryEntries.sort((a, b) =>
   a.sort.localeCompare(b.sort)
 )
 
+export const glossaryById = new Map(
+  glossaryEntries.map((entry) => [entry.id, entry])
+)
+
 export const quranByLocale = new Map<LocaleCode, QuranVerse[]>()
 export const quranTranslatorByLocale = new Map<LocaleCode, string>()
 

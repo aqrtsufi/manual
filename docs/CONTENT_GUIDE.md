@@ -44,33 +44,37 @@ Keep the numbering unique and sequential from 1 through 99. The content validato
 
 ## Daily quotes
 
-Add one `.txt` file per quote:
+Quote files are stored in:
 
 ```text
-content/en/quotes/002.txt
-content/en/quotes/003.txt
+content/en/quotes/*.txt
 ```
-
-The app selects one deterministically from the available files each day.
-
-## Quran selections
-
-Convert the TeX source into YAML and add entries to:
-
+The first non-empty line is the author for every quote in that file. The remaining text contains one or more quotes separated by empty lines.
 ```text
-content/en/quran/verses.yml
+Author name
+
+First quote.
+
+Second quote.
 ```
-
-Format:
-
+The app pools every quote from every `.txt` file and selects one daily.
+Quran selections
+All English Quran selections are stored in:
+```text
+content/en/quran/verse.yml
+```
 ```yaml
-- id: "2-152"
-  text: ""
-  reference: "2:152"
-  featured: true
+translator: "Translator name"
+verses:
+  - id: "2-152"
+    sura: "Al Baqara"
+    verse: "152"
+    text: "Verse translation."
+    featured: true
 ```
+The home page displays `Sura name:verse number` and the translator beneath the selected verse.
 
-The content validator rejects a featured entry containing more than one sentence-ending mark.
+
 
 ## Gregorian and Diyanet events
 

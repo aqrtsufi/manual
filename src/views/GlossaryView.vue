@@ -93,7 +93,12 @@ onMounted(revealRequestedEntry)
     </label>
 
     <div class="glossary-list">
-      <article v-for="entry in visibleEntries" :key="entry.id">
+      <article
+        v-for="entry in visibleEntries"
+        :id="`glossary-${entry.id}`"
+        :key="entry.id"
+        :class="{ 'glossary-highlight': highlightedEntry === entry.id }"
+      >
         <h2>{{ entry.term }}</h2>
         <p>{{ entry.description }}</p>
       </article>

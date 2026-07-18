@@ -114,6 +114,27 @@ for (const locale of ['en', 'fr', 'de', 'es']) {
   }
 }
 
+const weeklyDir = path.join(root, 'content/en/weekly')
+if (fs.existsSync(weeklyDir)) {
+  for (const file of fs.readdirSync(weeklyDir).filter((name) => name.endsWith('.yml'))) {
+    const data = loadYaml(fs.readFileSync(path.join(weeklyDir, file), 'utf8'))
+    const expectedWeek = file.replace(/\.yml$/, '')
+
+    if (String(data?.week || '') !== expectedWeek) {
+      errors.push(`${file}: week must match the filename (${expectedWeek}).`)
+    }
+
+    if (!String(data?.starts || '').trim()) errors.push(`${file}: starts is missing.`)
+    if (!String(data?.title || '').trim()) errors.push(`${file}: title is missing.`)
+
+    for (const field of ['reading', 'contemplation', 'assignment']) {
+      if (!String(data?.[field] || '').trim()) errors.push(`${file}: ${field} is empty.`)
+    }
+  }
+}
+
+
+
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join('\n'))
   process.exit(1)

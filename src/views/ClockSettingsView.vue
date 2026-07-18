@@ -208,7 +208,11 @@ function selectedSuras(id: QuranicOpeningId) {
               :key="opening.id"
               :value="opening.id"
             >
-              {{ opening.label }}
+              {{
+                opening.id === 'none'
+                  ? 'None'
+                  : `${opening.arabic} — ${opening.label}`
+              }}
             </option>
           </select>
 

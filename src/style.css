@@ -239,6 +239,49 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 
 /* Allah’s 99 Beautiful Names */
 .names-page { max-width: 1120px; margin: 0 auto; }
+.name-of-day {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 22px;
+  padding: clamp(20px, 3vw, 30px);
+  border: 1px solid var(--line);
+  border-radius: 22px 22px 58px 22px;
+  background: color-mix(in srgb, var(--paper) 84%, transparent);
+  box-shadow: 0 16px 36px color-mix(in srgb, #000 8%, transparent);
+}
+
+.name-of-day h2 {
+  margin: 0;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.65rem, 3.5vw, 2.7rem);
+  font-weight: 500;
+}
+
+.name-of-day p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.name-of-day button {
+  justify-self: start;
+  margin-top: 4px;
+  padding: 0;
+  border: 0;
+  color: var(--gold);
+  background: transparent;
+  font: inherit;
+  font-size: .78rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.name-of-day button:disabled {
+  cursor: default;
+  opacity: .72;
+}
 .names-heading { align-items: center; }
 .names-counter { min-width: 92px; padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--gold); background: rgba(247,241,229,.72); text-align: center; font-weight: 850; letter-spacing: .1em; }
 .name-stage { position: relative; min-height: min(650px, 70vh); display: grid; grid-template-columns: 58px minmax(0, 1fr) 58px; align-items: center; gap: clamp(10px, 2vw, 24px); padding: clamp(18px, 4vw, 44px); overflow: hidden; border: 1px solid rgba(185,135,53,.42); border-radius: 52px 52px 120px 52px; color: var(--paper); background:

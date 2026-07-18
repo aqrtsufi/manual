@@ -1,24 +1,49 @@
-import { ref } from 'vue'
+import { computed } from 'vue'
++import { useOrbitClock } from './useOrbitClock'
 
-const STORAGE_KEY = 'aqrt-selected-time-zone'
 const DEFAULT_TIME_ZONE = 'America/New_York'
 
-function initialTimeZone(): string {
-  if (typeof window === 'undefined') return DEFAULT_TIME_ZONE
-  return window.localStorage.getItem(STORAGE_KEY) || DEFAULT_TIME_ZONE
-}
-
-const selectedTimeZone = ref(initialTimeZone())
++const LEGACY_STORAGE_KEY = 'aqrt-selected-time-zone'
 
 export function useTimeZone() {
+  +  const {
++    activeTimezone,
++    localTimezone,
++    setTimezoneMode,
++    setOtherTimezone
++  } = useOrbitClock()
++
++  const selectedTimeZone = computed(
++    () => activeTimezone.value
++  )
++
++  function rememberLegacyValue(value: string) {
++    if (typeof window !== 'undefined') {
++      window.localStorage.setItem(
++        LEGACY_STORAGE_KEY,
++        value
++      )
++    }
++  }
++
   function setTimeZone(value: string) {
     const next = value.trim() || DEFAULT_TIME_ZONE
-    selectedTimeZone.value = next
-    window.localStorage.setItem(STORAGE_KEY, next)
+    +
++    if (next === DEFAULT_TIME_ZONE) {
++      setTimezoneMode('new-york')
++    } else if (next === localTimezone) {
++      setTimezoneMode('local')
++    } else {
++      setOtherTimezone(next)
++      setTimezoneMode('other')
++    }
++
++    rememberLegacyValue(next)
   }
 
   function useLocalTimeZone() {
-    setTimeZone(Intl.DateTimeFormat().resolvedOptions().timeZone)
+    +    setTimeZone(localTimezone)
+
   }
 
   function useNewYorkTimeZone() {

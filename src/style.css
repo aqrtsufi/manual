@@ -180,6 +180,252 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .event-entry { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 18px; border-radius: 16px; background: rgba(255,255,255,.08); }
 .event-entry span { opacity: .78; font-size: .82rem; }
 
+/* AQRT orbit clock */
+.orbit-clock {
+  isolation: isolate;
+}
+
+.orbit-combinations,
+.orbit-clock-hands {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.orbit-combinations {
+  z-index: 3;
+}
+
+.orbit-combination-position {
+  --orbit-radius: min(41%, 235px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(42px, 7vw, 76px);
+  min-height: 24px;
+  display: grid;
+  place-items: center;
+  color: var(--gold-bright);
+  font-size: clamp(0.48rem, 0.72vw, 0.68rem);
+  font-weight: 850;
+  line-height: 1.08;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-wrap: balance;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  transform:
+    translate(-50%, -50%)
+    rotate(var(--orbit-angle))
+    translateY(calc(-1 * var(--orbit-radius)))
+    rotate(calc(-1 * var(--orbit-angle)));
+}
+
+.orbit-clock-hands {
+  z-index: 2;
+}
+
+.orbit-hand {
+  position: absolute;
+  left: calc(50% - 1px);
+  bottom: 50%;
+  width: 2px;
+  border-radius: 999px;
+  transform-origin: 50% 100%;
+}
+
+.orbit-hour-hand {
+  height: min(18%, 92px);
+  background: color-mix(in srgb, var(--gold-bright) 88%, white);
+  box-shadow: 0 0 14px rgba(213, 170, 88, 0.28);
+}
+
+.orbit-minute-hand {
+  height: min(27%, 142px);
+  background: rgba(247, 241, 229, 0.82);
+  box-shadow: 0 0 12px rgba(247, 241, 229, 0.18);
+}
+
+.orbit-hand-pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  border: 2px solid var(--gold-bright);
+  border-radius: 50%;
+  background: var(--ink);
+  transform: translate(-50%, -50%);
+}
+
+.orbit-clock-core {
+  z-index: 4;
+  width: min(58%, 330px);
+  gap: 10px;
+}
+
+.orbit-time {
+  color: var(--paper);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.65rem, 3.2vw, 2.8rem);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.orbit-current-combinations {
+  max-width: 250px;
+  min-height: 3em;
+  margin: 2px 0 0;
+  color: var(--gold-bright);
+  font-size: clamp(0.7rem, 1.2vw, 0.94rem);
+  font-weight: 750;
+  line-height: 1.45;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.orbit-none-message {
+  color: rgba(247, 241, 229, 0.52);
+  font-weight: 600;
+}
+
+.orbit-mode-switch {
+  position: absolute;
+  z-index: 6;
+  left: 50%;
+  bottom: 26px;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(213, 170, 88, 0.28);
+  border-radius: 999px;
+  background: rgba(23, 59, 54, 0.88);
+  transform: translateX(-50%);
+  backdrop-filter: blur(12px);
+}
+
+.orbit-mode-switch button {
+  border: 0;
+  border-radius: 999px;
+  padding: 7px 11px;
+  color: rgba(247, 241, 229, 0.62);
+  background: transparent;
+  font-size: 0.61rem;
+  font-weight: 850;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.orbit-mode-switch button.active {
+  color: var(--ink);
+  background: var(--gold-bright);
+}
+```
+Then, immediately before:
+```css
+/* Teacher and contact */
+```
+paste:
+```css
+/* Clock settings */
+.clock-settings-page {
+  width: min(980px, 100%);
+  margin: 0 auto;
+}
+
+.clock-settings-intro {
+  margin-bottom: 18px;
+  padding: 18px 20px;
+  border-left: 3px solid var(--gold);
+  border-radius: 0 16px 16px 0;
+  color: var(--ink-soft);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+  line-height: 1.6;
+}
+
+.clock-settings-intro p {
+  margin: 0;
+}
+
+.clock-settings-intro p + p {
+  margin-top: 7px;
+}
+
+.clock-settings-card {
+  margin-top: 16px;
+  padding: clamp(20px, 4vw, 32px);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: color-mix(in srgb, var(--paper) 82%, transparent);
+  box-shadow: 0 12px 32px rgba(36, 43, 35, 0.07);
+}
+
+.clock-settings-card h2 {
+  margin: 0 0 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+.clock-settings-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.clock-settings-field,
+.orbit-position-row {
+  display: grid;
+  gap: 8px;
+}
+
+.clock-settings-field + .clock-settings-field {
+  margin-top: 16px;
+}
+
+.clock-settings-field > span,
+.orbit-position-number {
+  color: var(--gold);
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.clock-settings-field select,
+.clock-settings-field input,
+.orbit-position-row select {
+  width: 100%;
+  min-height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 9px 12px;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.orbit-position-editor {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.orbit-position-row {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: color-mix(in srgb, var(--paper) 72%, transparent);
+}
+
+.orbit-position-row small {
+  min-height: 2.5em;
+  color: var(--ink-soft);
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+
+
+
 /* Manual */
 .toc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .toc-card { display: grid; grid-template-columns: 42px 1fr; align-items: stretch; min-height: 90px; border: 1px solid var(--line); border-radius: 18px; background: rgba(247,241,229,.72); transition: .2s ease; overflow: hidden; }
@@ -721,6 +967,39 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .page-heading { align-items: start; }
   .page-heading h1 { font-size: 2.55rem; }
   .home-page { gap: 14px; }
+  .orbit-combination-position {
+    --orbit-radius: min(40%, 176px);
+    width: 48px;
+    font-size: 0.46rem;
+  }
+
+  .orbit-clock-core {
+    width: min(61%, 260px);
+    padding-inline: 24px;
+  }
+
+  .orbit-current-combinations {
+    max-width: 190px;
+    font-size: 0.68rem;
+  }
+
+  .orbit-mode-switch {
+    bottom: 17px;
+  }
+
+  .orbit-mode-switch button {
+    padding: 6px 8px;
+    font-size: 0.55rem;
+  }
+
+  .orbit-position-editor {
+    grid-template-columns: 1fr;
+  }
+
+  .clock-settings-card-heading {
+    align-items: flex-start;
+  }
+
   .date-orbit { min-height: 430px; border-radius: 48px; }
   .date-core { width: 73%; padding: 28px; }
   .illuminated-panel { min-height: 220px; border-radius: 22px 22px 55px 22px; }

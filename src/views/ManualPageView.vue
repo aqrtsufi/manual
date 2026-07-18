@@ -3,6 +3,8 @@ import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useLocale } from '../composables/useLocale'
 import { manualPages, tocByLocale } from '../lib/content'
+import GlossaryText from '../components/GlossaryText.vue'
+
 
 const route = useRoute()
 const router = useRouter()
@@ -50,7 +52,9 @@ function openPdf() {
         </div>
       </header>
 
-      <div class="manual-text">{{ page.text }}</div>
+      <div class="manual-text">
+        <GlossaryText :text="page.text" />
+      </div>
 
       <nav class="reader-pager" aria-label="Manual pages">
         <button type="button" :disabled="pageNumber <= 1" @click="go(-1)">←</button>

@@ -589,8 +589,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   display: grid;
   place-items: center;
   padding: 20px;
-  background: color-mix(in srgb, #071b18 70%, transparent);
-  backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--ink) 16%, transparent);
+  backdrop-filter: blur(1.5px);
 }
 
 .gls-popover {

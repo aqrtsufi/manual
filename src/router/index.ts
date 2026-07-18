@@ -12,6 +12,7 @@ import TeacherView from '../views/TeacherView.vue'
 import ContactView from '../views/ContactView.vue'
 import LinksView from '../views/LinksView.vue'
 import PrintView from '../views/PrintView.vue'
+import ClockSettingsView from '../views/ClockSettingsView.vue'
 
 export const router = createRouter({
   history: createWebHashHistory(),
@@ -21,6 +22,11 @@ export const router = createRouter({
     { path: '/manual', name: 'manual', component: ManualView },
     { path: '/manual/page/:page', name: 'manual-page', component: ManualPageView },
     { path: '/names', name: 'names', component: NamesView },
+    {
+      path: '/clock-settings',
+      name: 'clock-settings',
+      component: ClockSettingsView
+    },
     { path: '/glossary', name: 'glossary', component: GlossaryView },
     { path: '/videos', name: 'videos', component: VideosView },
     { path: '/weekly', name: 'weekly', component: WeeklyHubView },

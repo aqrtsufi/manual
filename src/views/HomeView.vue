@@ -1,9 +1,18 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref } from 'vue'
 import { useLocale } from '../composables/useLocale'
-import { diyanetCalendar, events, quranByLocale, quotesByLocale } from '../lib/content'
-import { deterministicIndex, eventOccursToday, formatGregorian, getDiyanetDate, localEventTime } from '../lib/dates'
+import {
+  diyanetCalendar,
+  events,
+  quranByLocale,
+  quranTranslatorByLocale,
+  quotesByLocale
+} from '../lib/content'
+import { eventOccursToday, formatGregorian, getDiyanetDate, localEventTime } from '../lib/dates'
+import { dailyCycleIndex } from '../lib/daily'
+import { useTimeZone } from '../composables/useTimeZone'
 
+  
 const { activeLocale } = useLocale()
 const now = ref(new Date())
 const timer = window.setInterval(() => { now.value = new Date() }, 60_000)

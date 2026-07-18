@@ -153,6 +153,15 @@ syncFromRoute()
       <span class="names-counter">{{ currentIndex + 1 }} / {{ names.length }}</span>
     </header>
 
+    <section v-if="nameOfDay" class="name-of-day" aria-label="Name of the Day">
+      <span class="eyebrow">Name of the Day</span>
+      <h2>{{ nameOfDay.transliteration }}</h2>
+      <p>{{ nameOfDayMeaning }}</p>
+      <button type="button" disabled>
+        View where this name occurs in The Quran (coming soon)
+      </button>
+    </section>
+
     <div
       v-if="current"
       class="name-stage"

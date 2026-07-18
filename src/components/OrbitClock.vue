@@ -93,12 +93,9 @@ const timeDisplay = computed(() => {
   const paddedMinute =
     String(minute).padStart(2, '0')
 
-  if (settings.value.mode === 'none') {
-    return (
-      `${String(hour24).padStart(2, '0')}` 
-      ` : ${paddedMinute}`
-    )
-  }
+if (settings.value.mode === 'none') {
+  return `${String(hour24).padStart(2, '0')} : ${paddedMinute}`
+}
 
   return `${hour12} : ${paddedMinute} ${dayPeriod}`
 })
@@ -158,12 +155,12 @@ const combinationDisplay = computed(() => {
 
 const minuteAngle = computed(() => {
   const { minute, second } = zonedParts.value
-  return minute * 6  second * 0.1
+  return minute * 6 + second * 0.1
 })
 
 const hourAngle = computed(() => {
   const { hour12, minute } = zonedParts.value
-  return (hour12 % 12) * 30  minute * 0.5
+  return (hour12 % 12) * 30 + minute * 0.5
 })
 
 const orbitRingStyle = computed(() => ({

@@ -1,8 +1,8 @@
 # Gregorian event
-# - id: ""
-#   title: ""
-#   calendar: "gregorian"
-#   date: "2026-01-09"
+- id: "urs-muhyiddin"
+  title: "Urs of Shaykh Muhyiddin Ansari"
+  calendar: "gregorian"
+  date: "2026-01-09"
 #   start: "2026-01-09T19:00:00"
 #   timezone: "America/New_York"
 #   url: ""

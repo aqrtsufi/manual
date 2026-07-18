@@ -11,6 +11,7 @@ import {
 import { eventOccursToday, formatGregorian, getDiyanetDate, localEventTime } from '../lib/dates'
 import { dailyCycleIndex } from '../lib/daily'
 import { useTimeZone } from '../composables/useTimeZone'
+import OrbitClock from '../components/OrbitClock.vue'
 
   
 const { activeLocale } = useLocale()
@@ -60,16 +61,7 @@ const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
 <template>
   <div class="home-page">
-    <section class="date-orbit" aria-label="Date">
-      <div class="orbit-rings" aria-hidden="true"></div>
-      <div class="date-core">
-        <span class="eyebrow">AQRT Manual</span>
-        <time>{{ gregorian }}</time>
-        <span class="date-divider"></span>
-        <time>{{ diyanet.value }}</time>
-        <small>{{ diyanet.official ? 'Diyanet Islamic' : 'Islamic' }}</small>
-      </div>
-    </section>
+    <OrbitClock />
 
     <section v-if="quote" class="illuminated-panel quote-panel">
       <span class="panel-number">01</span>

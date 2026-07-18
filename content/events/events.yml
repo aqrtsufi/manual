@@ -8,11 +8,11 @@
 #   url: ""
 #
 # Diyanet Islamic calendar event
-# - id: ""
-#   title: ""
-#   calendar: "diyanet"
-#   hijriDay: 12
-#   hijriMonth: "Rebiülevvel"
-#   startTime: "19:00"
-#   timezone: "America/New_York"
+- id: "mawlid"
+  title: "Mawlid"
+  calendar: "diyanet"
+  hijriDay: 12
+  hijriMonth: "Rebiülevvel"
+#  startTime: "19:00"
+# timezone: "America/New_York"
 #   url: ""

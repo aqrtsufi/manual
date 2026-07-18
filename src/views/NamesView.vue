@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
+import { dailyCycleIndex, stableDailyIndex } from '../lib/daily'
+import { useTimeZone } from '../composables/useTimeZone'
 import { useRoute, useRouter } from 'vue-router'
 import { useLocale } from '../composables/useLocale'
 import { divineNamesByLocale } from '../lib/content'
@@ -7,6 +9,9 @@ import { divineNamesByLocale } from '../lib/content'
 const route = useRoute()
 const router = useRouter()
 const { activeLocale } = useLocale()
+const { selectedTimeZone } = useTimeZone()
+const now = ref(new Date())
+let dailyTimer: number | undefined
 const currentIndex = ref(0)
 const direction = ref<'forward' | 'backward'>('forward')
 const pointerStartX = ref<number | null>(null)
@@ -14,6 +19,42 @@ const pointerStartY = ref<number | null>(null)
 
 const names = computed(() => divineNamesByLocale.get(activeLocale.value) || divineNamesByLocale.get('en') || [])
 const current = computed(() => names.value[currentIndex.value])
+const nameOfDay = computed(() => {
+  const index = dailyCycleIndex(
+    names.value.length,
+    now.value,
+    selectedTimeZone.value,
+    `name-of-day:${activeLocale.value}`
+  )
+
+  return index >= 0 ? names.value[index] : null
+})
+
+const nameOfDayMeanings = computed(() => {
+  const meaning = nameOfDay.value?.meaning || ''
+  const parts = meaning
+    .split(';')
+    .map((part) => part.trim())
+    .filter(Boolean)
+
+  return parts.length ? parts : meaning ? [meaning] : []
+})
+
+const nameOfDayMeaning = computed(() => {
+  const name = nameOfDay.value
+  const meanings = nameOfDayMeanings.value
+  if (!name || !meanings.length) return ''
+
+  const index = stableDailyIndex(
+    meanings.length,
+    now.value,
+    selectedTimeZone.value,
+    `name-meaning:${name.number}`
+  )
+
+  return index >= 0 ? meanings[index] : meanings[0]
+})
+  
 
 function clampIndex(value: number) {
   return Math.max(0, Math.min(names.value.length - 1, value))
@@ -87,8 +128,18 @@ function onKeydown(event: KeyboardEvent) {
 
 watch(() => route.query.name, syncFromRoute)
 watch(activeLocale, () => setIndex(0))
-onMounted(() => window.addEventListener('keydown', onKeydown))
-onUnmounted(() => window.removeEventListener('keydown', onKeydown))
+onMounted(() => {
+  window.addEventListener('keydown', onKeydown)
+  dailyTimer = window.setInterval(() => {
+    now.value = new Date()
+  }, 60_000)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', onKeydown)
+  if (dailyTimer !== undefined) window.clearInterval(dailyTimer)
+})
+
 syncFromRoute()
 </script>
 

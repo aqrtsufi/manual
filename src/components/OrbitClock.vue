@@ -172,8 +172,21 @@ const orbitRingStyle = computed(() => ({
 }))
 
 function positionStyle(index: number) {
+  /*
+   * index 0 = 12 o'clock
+   * index 1 = 1 o'clock
+   * ...
+   *
+   * 42% of the square's width places the text close to
+   * the outer circular ring while keeping it inside.
+   */
+  const angleDegrees = index * 30 - 90
+  const angleRadians = angleDegrees * Math.PI / 180
+  const radius = 42
+
   return {
-    '--orbit-angle': `${index * 30}deg`
+    left: `${50 + radius * Math.cos(angleRadians)}%`,
+    top: `${50 + radius * Math.sin(angleRadians)}%`
   }
 }
 </script>

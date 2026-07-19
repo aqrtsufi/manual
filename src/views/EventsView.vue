@@ -45,8 +45,8 @@ const gregorianEvents = computed(() =>
     <div class="event-calendar-columns">
       <section class="event-calendar-column">
         <header>
-          <span class="eyebrow">Diyanet calendar</span>
-          <h2>Islamic Events</h2>
+          <span class="eyebrow">Hijri calendar</span>
+          <h2>Events</h2>
           <small>Calendar reference: Istanbul</small>
         </header>
 
@@ -81,8 +81,8 @@ const gregorianEvents = computed(() =>
 
       <section class="event-calendar-column">
         <header>
+        <h2>Events</h2>
           <span class="eyebrow">Gregorian calendar</span>
-          <h2>Gregorian Events</h2>
           <small>Default timezone: New York</small>
         </header>
 

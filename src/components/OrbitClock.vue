@@ -99,7 +99,7 @@ const combinationDisplay = computed(() => {
   if (!hourLabel && !minuteLabel) return ''
   if (hourLabel && hourLabel === minuteLabel) return hourLabel
 
-  return `${hourLabel || '—'} : ${minuteLabel || '—'}`
+  return `${hourLabel || '—'}\n${minuteLabel || '—'}`
 })
 
 const effectiveCenterDisplay = computed(() => {

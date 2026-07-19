@@ -29,6 +29,8 @@
 # Set date to today in the event timezone, deploy, then remove or disable it.
 - id: "clock-event-test"
   enabled: true
-  title: "Test Event"
+  title: |-
+    Urs of 
+    Shaykh Muhyiddin Ansari
   calendar: "gregorian"
   date: "2026-07-19"
